@@ -1,0 +1,26 @@
+---
+chapter: true
+pre: <b>2. </b>
+title: Day 1
+weight: 2
+---
+
+### Module 1
+
+## RStudio IDE; R language; Data classification and summary statistics
+
+##### In this module you will set up the working environment, connect to <span style="color:orangered">**GitHub** </span> and pass the first big hurdle of importing data and you will learn how to do it in the proper way with a command in <span style="color:orangered">**R**</span>. You will learn how to use <span style="color:orangered">**RStudio**</span> IDE for R from its installation to RStudio customisation and files navigation. You will learn good habits and practice of workflow in an R project. Once you get comfortable with the RStudio working environment you will move onto mastering the key features of R language and get introduced to fundamental statistical concepts. 
+
+#### What will you learn:
+
+* Basic use of R/RStudio console
+* Good habits for workflow
+* Inputting and importing different data types
+* R environment: record keeping
+* Data classification
+* Descriptive summary statistics
+* base R graphics
+
+
+-----------------------------
+© 2019 Tatjana Kecojevic

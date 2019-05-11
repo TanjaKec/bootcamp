@@ -1,0 +1,44 @@
+baseURL = ""
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "R Bootcampc"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Material for R Bootcamp"
+  author = "Tatjana Kecojevic"
+  showVisitedLinks = true
+  disableSearch = false
+  disableLanguageSwitchingButton = true
+
+[params.logo]
+url = "logo.jpg"
+
+[outputs]
+#home = [ "HTML", "RSS", "JSON"]
+home = ["HTML"]
+
+[Languages]
+[Languages.en]
+title = "R Bootcamp"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/TanjaKec"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+
