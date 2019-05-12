@@ -130,12 +130,11 @@ To run multiple lines of code, highlight them and click **Run**.
 
 ![Red variant](/day1/UseR/images/RunScript.png?width=30pc)
 
-**Tip**💡: Ge
 {{% notice tip %}}
-� habit of saving your scripts after you create them. Try to save them before running your code in case you write code that makes R crash which sometimes happens. 😣 &@#$!?#%
+💡: Get into a habit of saving your scripts after you create them. Try to save them before running your code in case you write code that makes R crash which sometimes happens. 😣 &@#$!?#%
+{{% /notice %}}
 
-<https://www.{{% /notice %}}
-rstudio.com/products/rstudio/features/>
+<https://www.rstudio.com/products/rstudio/features/>
 
 
 #### R Objects
