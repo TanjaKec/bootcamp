@@ -19,7 +19,6 @@ weight: 2
 * R environment: record keeping
 * Data classification
 * Descriptive summary statistics
-* base R graphics
 
 
 -----------------------------

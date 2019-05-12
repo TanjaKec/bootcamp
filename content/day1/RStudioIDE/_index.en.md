@@ -6,7 +6,7 @@ weight: 4
 
 ## RStudio's layout 
 
-When you open RStusio for the first time it will be split into three sections. Each section has its own tab with shortcuts for the relevant options available from the main RStudio manue. 
+When you open RStusio for the first time it will be split into three sections. Each section has its own tab with shortcuts for the relevant options available from the main RStudio menu. 
 
 ![Red variant](/day1/RStudioIDE/images/RStudioWindow.png?width=40pc)
 
@@ -17,8 +17,9 @@ This code is also called commands or functions.
 
 - In the <span style="color:#FF00FF">**bottom right section**</span> there are tabs to flip through the <span style="color:#FF00FF">Files</span> and folder structure of your computer (like in Finder or Explorer), <span style="color:#FF00FF">Help</span> information etc.
 
-🤓💡: You might find useful bookmarking the link for [RStudio IDE Cheet Sheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)!
-
+{{% notice tip %}}
+🤓💡: You might find it useful bookmarking the link for [RStudio IDE Cheet Sheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)!
+{{% /notice %}}
 
 
 

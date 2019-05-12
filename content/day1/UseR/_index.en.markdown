@@ -25,10 +25,10 @@ You should take note of the following facts:
 - R is case-sensitive language which executes instructions directly; 
 - Commands are entered at prompt `>`
 - Commands are separate statements which could be put in a same line if separated by a semi-colons `;`.
-- Code statements can be commented by using a `#` tag. You can comment in continuation of the command line or in a separet line.
+- Code statements can be commented by using a `#` tag. You can comment in continuation of the command line or in a separate line.
 
 {{% notice tip %}}
-💡 The best way to learn is by doing. Hence, I would like you <span style="color:red">not to copy past the comands showing in the black boxes</span>, but rather you to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
+💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy past the comands showing in the black boxes</span>, but rather you to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
 {{% /notice %}}
 
 ## Let's start using R! 
@@ -49,7 +49,7 @@ setwd("C:/Documents/MyR_Project")
 setwd("~/documents/MyR_Project")
 ```
 
-🤓💡: Make sure you fully adopt the correct sintax in terms of slashes and quatation marks.
+🤓💡: Make sure you fully adopt the correct sintax in terms of slashes and quotation marks.
 
 Note that the current working directory is displayed by RStudio within the title region of the Console. You can also setup your working directory by:
 
@@ -65,19 +65,19 @@ Use the **More | Set As Working Directory** menu
 
 ![Red variant](/day1/UseR/images/SetWD1.png?width=20pc)
 
-However, you should always start fresh project (**File | New Project...**) that would authomatically set up your working directory without having to point out to it in your script file. You should read [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
+However, you should always start a fresh project (**File | New Project...**) that would automatically set up your working directory without having to point out to it in your script file. You should read [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
 
 ## R Packages
 
 *"In R, the fundamental unit of shareable code is the package."* [Hadley Wickham, *R packages*](http://r-pkgs.had.co.nz/intro.html)
 
-R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <span style="color:red">C</span>omprehensive <span style="color:red">R</span> <span style="color:red">A</span>rchive <span style="color:red">N</span>etwork, or <span style="color:red">CRAN</span>, the public clearing house for R packages. Those pachages are developed by the experts in their fealds and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis softwre packages, which is one of the reasons that R is so successful.  
+R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <span style="color:red">C</span>omprehensive <span style="color:red">R</span> <span style="color:red">A</span>rchive <span style="color:red">N</span>etwork, or <span style="color:red">CRAN</span>, the public clearing house for R packages. Those pachages are developed by the experts in their fields and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis software packages, which is one of the reasons that R is so successful.  
 
 When you run R you will authomatically upload the [`package:base`](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf), which is the system library, i.e. package where all standard functions are defined. The rest of the so called *base packages* contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using `install.packages()`. From RStudio menu you can do it by sellecting **Tools | Install Packages...** and typing the name of the desired package in the dialog window.
 
-![Red variant](/week1/UseR/images/InstallPckg.png?width=20pc)
+![Red variant](/day1/UseR/images/InstallPckg.png?width=20pc)
 
-Once installed, the package will apear in the list of the available packages in your **Packages panel**. To use it you have to load it to system’s search path by simply typing the name of the package as an argument of the `library()` function, or by checking the box next to its name from the **Packages panel**.
+Once installed, the package will apear in the list of the available packages in your **Packages panel**. To use it you have to load it to the system’s search path by simply typing the name of the package as an argument of the `library()` function, or by checking the box next to its name from the **Packages panel**.
 
 ![Red variant](/day1/UseR/images/Packages.png?width=20pc)
 
@@ -87,7 +87,7 @@ Once installed, the package will apear in the list of the available packages in 
 
 To begin with, we can use R as a calculator. 😁
 
-In your console type in `2 + 2`. Note that you don’t have to type the equals sighn and that answer has [1] in front. The [1] indicates that there is only one number in the answer. If the answer contains more than one number it uses numbering like this to indicate where in the ‘group’ of numbers each one is.
+In your console type in `2 + 2`. Note that you don’t have to type the equals sign and that answer has [1] in front. The [1] indicates that there is only one number in the answer. If the answer contains more than one number it uses numbering like this to indicate where in the ‘group’ of numbers each one is.
 
 You see?! R is like a big calculator! 😲 
 
@@ -130,9 +130,12 @@ To run multiple lines of code, highlight them and click **Run**.
 
 ![Red variant](/day1/UseR/images/RunScript.png?width=30pc)
 
-**Tip**💡: Get into a habit of saving your scripts after you create them. Try to save them before running your code in case you write code that makes R crash which sometimes may happen. 😣 &@#$!?#%
+**Tip**💡: Ge
+{{% notice tip %}}
+� habit of saving your scripts after you create them. Try to save them before running your code in case you write code that makes R crash which sometimes happens. 😣 &@#$!?#%
 
-<https://www.rstudio.com/products/rstudio/features/>
+<https://www.{{% /notice %}}
+rstudio.com/products/rstudio/features/>
 
 
 #### R Objects

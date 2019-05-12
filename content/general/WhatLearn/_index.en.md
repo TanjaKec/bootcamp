@@ -13,7 +13,7 @@ The bootcamp will start by introducing the fundamental concepts of **R**: basic 
 
 Version control has become an essential tool for keeping track when working on DS projects, as well as collaborating. **RStudio** supports working with **Git**, an open source distributed version control system, which is easy to use when combined with **GitHub**, a web-based **Git** repository hosting service. We will introduce you to **GitHub** and you’ll become acquainted with good practice when incorporating the use of **Git** into your **R** project workflow. 
 
-There is a demand for open and transparent data sources by governments and civic groups as a means to improve the lives of citizens. Together we will investigate the importance of open source data and we will identify where open source data can be readily found accros the Internet. You will work on the case studies inspired by real problems and based on **open data**. 
+There is a demand for open and transparent data sources by governments and civic groups as a means to improve the lives of citizens. Together we will investigate the importance of open source data and we will identify where open source data can be readily found accross the Internet. You will work on the case studies inspired by real problems and based on **open data**. 
 
 ## Objectives:
 
@@ -31,7 +31,7 @@ There is a demand for open and transparent data sources by governments and civic
 
 ## How the bootcamp work
 
-The material is structured within 3 daily modules. Each module is a 5 hours long sessio split into 4 hours hands on interactive student/teacher workshops with a 30 minutes lunch break and the last hour reserved for questions and discussions.
+The material is structured within 3 daily modules. Each module is a 5 hours long session split into 4 hours hands on interactive student/teacher workshops with a 30 minutes lunch break and the last hour reserved for questions and discussions.
 
 Each module will be taught by [Dr Tatjana Kecojevic](tanjakec.github.io) and will cover various related topics through appropriate case studies, presentations and readings. The conceptual models come to life when practice becomes reality during the hands on taught sessions, through the application of **R**. Students are then expected to use their own time to practice and hone acquired data handling expertise acquired during the taught sessions.
 
@@ -41,7 +41,7 @@ Students are expected to participate fully in all of these delivery modes, but i
 
 * Readings and hand-outs/exercises
 * Participation in the discussions
-* Quizzes covering concepts from tutorials and/or readings 
+* Exercises covering concepts from tutorials and/or readings 
 {{% /notice %}}
 
 
