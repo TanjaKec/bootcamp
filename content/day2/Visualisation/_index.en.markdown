@@ -6,13 +6,13 @@ output:
 weight: 2
 ---
 
-Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pritty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likelly going to have organse and wrangle your data to make it ready for effective visualisation. 
+Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
 
 ### Grammar of Graphics
 
-The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and atractive. 
+The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and attractive. 
 
-Enables you to specify building blocks of a plot and to combine them to create graphical display you want. There are 8 building blocks:
+Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
 
 - data
 
@@ -30,14 +30,14 @@ Enables you to specify building blocks of a plot and to combine them to create g
 
 - faceting
 
-Imagine talking about baking a cake and adding a chery on the top. 🎂🍒 This philosophy has been built into the [`ggplot`](https://ggplot2.tidyverse.org/reference/) package by [Hadle Wickham](http://hadley.nz) for creating elegant and complex plots in R.
+Imagine talking about baking a cake and adding a cherry on the top. 🎂🍒 This philosophy has been built into the [`ggplot`](https://ggplot2.tidyverse.org/reference/) package by [Hadle Wickham](http://hadley.nz) for creating elegant and complex plots in R.
 
 
 #### ggplot2
 
-Learning how to use the `ggplot2` package can be challenging, but the results are higly revording and just like R itself it becomes easier the more you use it.
+Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.
 
-The best way to master it by practicink. So let us create a first `ggplot`. 😃
+The best way to master it is by practicing. So let us create a first `ggplot`. 😃
 What we need to do is the following:
 
 1. Wrangle the data in the format suitable for visualisation.
@@ -62,6 +62,7 @@ ggplot(gapminder_pipe, aes(x = pop_e6, y = lifeExp)) +
 ```
 
 <img src="/day2/Visualisation/_index.en_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
+
 🤓💡 **Tip**: You can use the following code template to make graphs with **ggplot2**:
 
 ```
@@ -149,18 +150,18 @@ sample_n(gapminder, 30)
 
 ```
 ## # A tibble: 30 x 6
-##    country       continent  year lifeExp      pop gdpPercap
-##    <fct>         <fct>     <int>   <dbl>    <int>     <dbl>
-##  1 Colombia      Americas   2002    71.7 41008227     5755.
-##  2 Lebanon       Asia       1977    66.1  3115787     8660.
-##  3 Sri Lanka     Asia       1982    68.8 15410151     1648.
-##  4 Vietnam       Asia       2007    74.2 85262356     2442.
-##  5 Guinea-Bissau Africa     1987    41.2   927524      736.
-##  6 Tanzania      Africa     1992    50.4 26605473      826.
-##  7 Venezuela     Americas   1962    60.8  8143375     8423.
-##  8 Togo          Africa     1992    58.1  3747553     1034.
-##  9 Ethiopia      Africa     1997    49.4 59861301      516.
-## 10 Cuba          Americas   2002    77.2 11226999     6341.
+##    country        continent  year lifeExp      pop gdpPercap
+##    <fct>          <fct>     <int>   <dbl>    <int>     <dbl>
+##  1 Burkina Faso   Africa     1957    34.9  4713416      617.
+##  2 Iraq           Asia       1962    51.5  7240260     8342.
+##  3 Peru           Americas   2007    71.4 28674757     7409.
+##  4 Tanzania       Africa     1962    44.2 10863958      722.
+##  5 Togo           Africa     1992    58.1  3747553     1034.
+##  6 Malaysia       Asia       2002    73.0 22662365    10207.
+##  7 Namibia        Africa     1962    48.4   621392     3173.
+##  8 Czech Republic Europe     1972    70.3  9862158    13108.
+##  9 Cambodia       Asia       1992    55.8 10150094      682.
+## 10 Myanmar        Asia       1987    58.3 38028578      385 
 ## # … with 20 more rows
 ```
 
@@ -254,7 +255,6 @@ gapminder %>%
 [An example from Financial Times](http://johnburnmurdoch.github.io/slides/r-ggplot/#/)
 
 [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
-
 
 
 -----------------------------

@@ -15,9 +15,9 @@ This diagram is taken from [R for Data Science](https://r4ds.had.co.nz/) book by
 
 ### Dataset
 
-To learn and practice how to organise a data we will use a `gapminder` data set awailable from `gapminder` package in R. This dataset is put into R by [Jennifer Bryan](https://jennybryan.org/) from a tank od data sets available from [Gapminder](https://www.gapminder.org).
+To learn and practice how to organise a data we will use a `gapminder` data set awailable from `gapminder` package in R. This dataset is put into R by [Jennifer Bryan](https://jennybryan.org/) from a tank of data sets available from [Gapminder](https://www.gapminder.org).
 
-[Gapminder](https://www.gapminder.org) is an independent Swedish foundation that helps to promote sustainable global development by collecting and analysiing relevan data and by developing and designing  teaching/learning tools. [Gapminder](https://en.wikipedia.org/wiki/Gapminder_Foundation) was founded in Sweden by [Hans Rosling](https://en.wikipedia.org/wiki/Hans_Rosling) who was a mistermind for ditinctive and uterlly insightful storytelling about global development using visual animation.
+[Gapminder](https://www.gapminder.org) is an independent Swedish foundation that helps to promote sustainable global development by collecting and analysiing relevant data and by developing and designing  teaching/learning tools. [Gapminder](https://en.wikipedia.org/wiki/Gapminder_Foundation) was founded in Sweden by [Hans Rosling](https://en.wikipedia.org/wiki/Hans_Rosling) who was a mastermind for distinctive and insightful storytelling about global development using visual animation.
 
 You can see Hans in action in this [BBC documentary](https://www.bbc.co.uk/programmes/p02q33dg) [The joy of Stats](https://www.youtube.com/watch?v=cdf0k545yDA) available on [YouTube](https://www.youtube.com).
 
@@ -62,7 +62,8 @@ dim(gapminder)
 head(gapminder, n=10)
 ```
 
-Can you tell what does each of the two function do⁉️
+Can you tell what does each of the two functions do⁉️
+
 Do we have the inormation about the structure of the data? 🤔 We can examine the structure using <span style="color:red">`str()`</span> function, but the **output could look messy** and hard to follow if the data set is big. 🤪
 
 ```{r}
@@ -71,7 +72,7 @@ str(gapminder)
 
 #### The `dplyr` Package
 
-Rhe <span style="color:red">**`dplyr`**</span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key opertor and the esential verbs are :
+Rhe <span style="color:red">**`dplyr`**</span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key opertor and the essential verbs are:
 
 <span style="color:red">%>%</span>: the “pipe” operator used to connect multiple verb actions together into a pipeline.
 
@@ -94,7 +95,7 @@ glimpse(gapminder)
 
 🤓💡: Notice how we could prevent display of the messages that appear when uploading the packages by using, in this case, `suppressPackageStartupMessages()`!
 
-Now we have `diplyr` package uploaded, let us lear its verbs. 😇
+Now we have `diplyr` package uploaded, let us learn its verbs. 😇
 
 #### The pipeline operater: <span style="color:red">`%>%`</span>
 
@@ -317,5 +318,6 @@ Practise by doing the following set of exercises:
 
 [Data Transformation with dplyr cheat sheat](https://ugoproto.github.io/ugo_r_doc/dplyr.pdf)
 
------------------------------
+----------------------------
+-
 © 2019 Tatjana Kecojevic

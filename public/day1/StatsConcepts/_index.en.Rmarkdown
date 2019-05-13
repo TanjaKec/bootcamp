@@ -21,7 +21,7 @@ Can you provide a formal definition about the population and the sample? 😁
 
 *The population is the set of all people/objects of interest in the study being undertaken.*  
 
-In statistical terms the whole data set is called the **population**. This represents **“Perfect Information”**, however in practice it is often impossible to enumerate the whole population.The analyst therefore takes a sample drawn from the population and uses this information to make judgements (**inferences**) about the population.
+In statistical terms the whole data set is called the **population**. This represents **“Perfect Information”**, however in practice it is often impossible to enumerate the whole population. The analyst therefore takes a sample drawn from the population and uses this information to make judgements (**inferences**) about the population.
 
 Clearly if the results of any analysis are based on a **sample drawn from the population**, then if the sample is going to have any validity, then the sample should be chosen in a way that is fair and reflects the structure of the population.
 
@@ -29,7 +29,7 @@ The process of sampling to obtain a representative sample is a large area of sta
 
 *A sample chosen in such a way that each item in the population has an equal chance of being included in the sample.*
 
-As soon as sample data is used, the information contained within the sample is *“Imperfect”* and depends on the particular sample chosen.  The **key problem** is to use this sample data to draw valid conclusions about the population with the knowledge of and taking into account the '*error due to sampling*'.
+As soon as sample data is used, the information contained within the sample is *“Imperfect”* and depends on the particular sample chosen. The **key problem** is to use this sample data to draw valid conclusions about the population with the knowledge of and taking into account the '*error due to sampling*'.
 
 The importance of working with representative samples should be seriously considered; a good way to appreciate this importance is to see the consequences of using unrepresentative samples. A book by [Darrell Huff](https://en.wikipedia.org/wiki/Darrell_Huff) called [How to Lie with Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics), published by [Penguin](https://www.penguin.co.uk/) contains several anecdotes of unrepresentative samples and the consequences of treating them as representative.
 
@@ -39,7 +39,7 @@ Usually the data will have been collected in response to some perceived problem,
 
 Before attempting to analyse any data, the analyst should:
 
-i)	Make sure that the problem under investigation is clearly understood, and that the objectives of the investigation have been clearly specified. The only way to obtain this information is to ask questions, and keep asking questions until satisfactory answers have been obtained.
+i)	Make sure that the problem under investigation is clearly understood, and that the objectives of the investigation have been clearly specified. 
 
 ii)	Before any analysis is considered the analyst should make sure that the individual variables making up the data set are clearly understood. 
 
@@ -73,7 +73,7 @@ Common way of handling attribute data is to give it a numerical code. Hence, we 
   * weight
   * age
 
-There are two types of measured variables, a measured variable that is measured on some continuous scale of measurement, e.g. a person’s height. This type of measured variable is called a *continuous variable*.  The other type of measured variable is a *discrete variable*. This results from counting; for example 'the number of passengers on a given flight. 
+There are two types of measured variables, a measured variable that is measured on some continuous scale of measurement, e.g. a person’s height. This type of measured variable is called a *continuous variable*.  The other type of measured variable is a *discrete variable*. This results from counting; for example 'the number of passengers on a given flight'. 
 
 
 ### The Concept of Statistical Distribution
@@ -335,13 +335,14 @@ All hypothesis tests are carried out in four stages:
 
 ## YOUR TURN 👇
 
-
+Make sure you can answer the followng questions:
 
 1)	What are the underlying ideas that enable a relationship between two variables to be investigated? What is the purpose of summary statistics?
 
 2)	What is the data analysis methodology for exploring the relationship between:
 
   i) a measured response variable and an attribute explanatory variable?
+  
   i) a measured response variable and a measured explanatory variable?
 
 

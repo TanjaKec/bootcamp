@@ -6,13 +6,13 @@ output:
 weight: 2
 ---
 
-Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pritty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likelly going to have organse and wrangle your data to make it ready for effective visualisation. 
+Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
 
 ### Grammar of Graphics
 
-The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and atractive. 
+The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and attractive. 
 
-Enables you to specify building blocks of a plot and to combine them to create graphical display you want. There are 8 building blocks:
+Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
 
 - data
 
@@ -30,14 +30,14 @@ Enables you to specify building blocks of a plot and to combine them to create g
 
 - faceting
 
-Imagine talking about baking a cake and adding a chery on the top. 🎂🍒 This philosophy has been built into the [`ggplot`](https://ggplot2.tidyverse.org/reference/) package by [Hadle Wickham](http://hadley.nz) for creating elegant and complex plots in R.
+Imagine talking about baking a cake and adding a cherry on the top. 🎂🍒 This philosophy has been built into the [`ggplot`](https://ggplot2.tidyverse.org/reference/) package by [Hadle Wickham](http://hadley.nz) for creating elegant and complex plots in R.
 
 
 #### ggplot2
 
-Learning how to use the `ggplot2` package can be challenging, but the results are higly revording and just like R itself it becomes easier the more you use it.
+Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.
 
-The best way to master it by practicink. So let us create a first `ggplot`. 😃
+The best way to master it is by practicing. So let us create a first `ggplot`. 😃
 What we need to do is the following:
 
 1. Wrangle the data in the format suitable for visualisation.
@@ -59,6 +59,7 @@ gapminder_pipe <- gapminder %>%
 ggplot(gapminder_pipe, aes(x = pop_e6, y = lifeExp)) +
   geom_point(col ="red")
 ```
+
 🤓💡 **Tip**: You can use the following code template to make graphs with **ggplot2**:
 
 ```
@@ -200,7 +201,6 @@ ggplot(gapminder, aes(x = continent, y = lifeExp)) +
 [An example from Financial Times](http://johnburnmurdoch.github.io/slides/r-ggplot/#/)
 
 [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
-
 
 
 -----------------------------

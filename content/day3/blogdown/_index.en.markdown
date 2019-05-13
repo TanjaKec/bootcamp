@@ -113,7 +113,7 @@ We are going to assume that you are already familiar and have done:
 
 #### Build a website
 
-We'll adopt *simple is beautiful* approch and start building a website using a <span style="color:red">default theme</span>.
+We'll adopt *simple is beautiful* approach and start building a website using a <span style="color:red">default theme</span>.
 
 `blogdown::new_site()`
 
@@ -124,7 +124,7 @@ We'll adopt *simple is beautiful* approch and start building a website using a <
 
 To see the current **Hugo themes** go to <https://themes.gohugo.io/>.
 
-Let the knowledge and familiarity with `blogdown` and `Hugo` grow first.🧐 Once you get familiour with `blogdown` and `Hugo` you can always swich to a different theme. 💇 <https://bookdown.org/yihui/blogdown/other-themes.html>
+Let the knowledge and familiarity with `blogdown` and `Hugo` grow first.🧐 Once you get familiar with `blogdown` and `Hugo` you can always switch to a different theme. 💇 <https://bookdown.org/yihui/blogdown/other-themes.html>
 
 #### Structure of a HUGO site
 
@@ -140,7 +140,7 @@ Let the knowledge and familiarity with `blogdown` and `Hugo` grow first.🧐 Onc
 
 `blogdown::serve_site()` 
 
-or, from `Addins` menue select `servesite` 
+or, from `Addins` menu select `servesite` 
 
 <img src="images/Serve_Site.png" width="200px" style="display: block; margin: auto;" />
 
@@ -165,11 +165,6 @@ Don't try to view your site in your teeny RStudio viewer, instead click on <span
 ##### From here on we will follow the steps given in Xaringan presentation available from [ 👉 here](https://tanjakec.github.io/BlogdownWS/Blogdown_WS_Slides/blogdown_workshop.html)
 
 ### Happy Blogging! 📢 
-
-
-
-
-
 
 
 

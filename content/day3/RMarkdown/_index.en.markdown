@@ -20,7 +20,7 @@ It enables you to:
 
 What is great about [R Markdown](https://rmarkdown.rstudio.com/) documents is that they are fully reproducible and support many static and dynamic output formts, to name a few: PDF, HTML, MS Word, Beamer...  You can incorporate narrative text and code of your data analysis to produce elegantly formatted storry telling journy.
 
-It is a variant of [Markdown](https://daringfireball.net/projects/markdown/) that has embedded **R code chunks** (denoted by three backticks), to be used with [knitr](https://yihui.name/knitr/) to make it easy to create reproducible web-based reports. 
+It is a variant of [Markdown](https://daringfireball.net/projects/markdown/) that has embedded **R code chunks** (denoted by three back ticks), to be used with [knitr](https://yihui.name/knitr/) to make it easy to create reproducible web-based reports. 
 
 R Markdown is a plain text file that has the extension <span style="color:red">.Rmd</span>
 
@@ -156,8 +156,6 @@ or to *embed an equation* **in line within the text** you would use only one dol
 #### Congratulations! You have got the basics to start creating your own fabulous dynamic documents… !!!! 👍😃
 
 
-
-
 You would deffinitely find usefull the following:
 
 - [RMarkdown cheatasheat](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
@@ -171,11 +169,6 @@ You would deffinitely find usefull the following:
 - [R Markdown Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
 
 - [Advanced R Markdown – Tutorial::RStudio Conference 2017](https://www.rstudio.com/resources/videos/advanced-r-markdown-tutorial/)
-
-
-
-
-
 
 
 

@@ -12,18 +12,18 @@
     <title>Data Visuaisation :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1557662745" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1557662745" rel="stylesheet">
-    <link href="/css/hybrid.css?1557662745" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1557662745" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1557662745" rel="stylesheet">
-    <link href="/css/auto-complete.css?1557662745" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1557662745" rel="stylesheet">
-    <link href="/css/theme.css?1557662745" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1557662745" rel="stylesheet">
+    <link href="/css/nucleus.css?1557737124" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1557737124" rel="stylesheet">
+    <link href="/css/hybrid.css?1557737124" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1557737124" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1557737124" rel="stylesheet">
+    <link href="/css/auto-complete.css?1557737124" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1557737124" rel="stylesheet">
+    <link href="/css/theme.css?1557737124" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1557737124" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1557662745"></script>
+    <script src="/js/jquery-3.3.1.min.js?1557737124"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1557662745"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1557662745"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1557737124"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1557737124"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1557662745"></script>
+<script type="text/javascript" src="/js/search.js?1557737124"></script>
 
     
   </div>
@@ -775,13 +775,13 @@
 
 	
 
-<p>Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: &ldquo;pritty graph&rdquo;. Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likelly going to have organse and wrangle your data to make it ready for effective visualisation.</p>
+<p>Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: &ldquo;pretty graph&rdquo;. Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation.</p>
 
 <h3 id="grammar-of-graphics">Grammar of Graphics</h3>
 
-<p>The <a href="http://vita.had.co.nz/papers/layered-grammar.html">grammer of graphics</a> enables a structured way of creating a plot by adding the components as layers making it look effective and atractive.</p>
+<p>The <a href="http://vita.had.co.nz/papers/layered-grammar.html">grammer of graphics</a> enables a structured way of creating a plot by adding the components as layers making it look effective and attractive.</p>
 
-<p>Enables you to specify building blocks of a plot and to combine them to create graphical display you want. There are 8 building blocks:</p>
+<p>Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:</p>
 
 <ul>
 <li><p>data</p></li>
@@ -801,13 +801,13 @@
 <li><p>faceting</p></li>
 </ul>
 
-<p>Imagine talking about baking a cake and adding a chery on the top. 🎂🍒 This philosophy has been built into the <a href="https://ggplot2.tidyverse.org/reference/"><code>ggplot</code></a> package by <a href="http://hadley.nz">Hadle Wickham</a> for creating elegant and complex plots in R.</p>
+<p>Imagine talking about baking a cake and adding a cherry on the top. 🎂🍒 This philosophy has been built into the <a href="https://ggplot2.tidyverse.org/reference/"><code>ggplot</code></a> package by <a href="http://hadley.nz">Hadle Wickham</a> for creating elegant and complex plots in R.</p>
 
 <h4 id="ggplot2">ggplot2</h4>
 
-<p>Learning how to use the <code>ggplot2</code> package can be challenging, but the results are higly revording and just like R itself it becomes easier the more you use it.</p>
+<p>Learning how to use the <code>ggplot2</code> package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.</p>
 
-<p>The best way to master it by practicink. So let us create a first <code>ggplot</code>. 😃
+<p>The best way to master it is by practicing. So let us create a first <code>ggplot</code>. 😃
 What we need to do is the following:</p>
 
 <ol>
@@ -831,8 +831,9 @@ ggplot(gapminder_pipe, aes(x = pop_e6, y = lifeExp)) +
   geom_point(col =&quot;red&quot;)
 </code></pre>
 
-<p><img src="/day2/Visualisation/_index.en_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
-🤓💡 <strong>Tip</strong>: You can use the following code template to make graphs with <strong>ggplot2</strong>:</p>
+<p><img src="/day2/Visualisation/_index.en_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" /></p>
+
+<p>🤓💡 <strong>Tip</strong>: You can use the following code template to make graphs with <strong>ggplot2</strong>:</p>
 
 <pre><code>ggplot(data = &lt;DATA&gt;, (mapping = aes(&lt;MAPPINGS&gt;)) + &lt;GEOM_FUNCTION&gt;()
 </code></pre>
@@ -913,18 +914,18 @@ Is the relationship linear? What conclusion(s) can you draw?</p>
 </code></pre>
 
 <pre><code>## # A tibble: 30 x 6
-##    country       continent  year lifeExp      pop gdpPercap
-##    &lt;fct&gt;         &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
-##  1 Colombia      Americas   2002    71.7 41008227     5755.
-##  2 Lebanon       Asia       1977    66.1  3115787     8660.
-##  3 Sri Lanka     Asia       1982    68.8 15410151     1648.
-##  4 Vietnam       Asia       2007    74.2 85262356     2442.
-##  5 Guinea-Bissau Africa     1987    41.2   927524      736.
-##  6 Tanzania      Africa     1992    50.4 26605473      826.
-##  7 Venezuela     Americas   1962    60.8  8143375     8423.
-##  8 Togo          Africa     1992    58.1  3747553     1034.
-##  9 Ethiopia      Africa     1997    49.4 59861301      516.
-## 10 Cuba          Americas   2002    77.2 11226999     6341.
+##    country        continent  year lifeExp      pop gdpPercap
+##    &lt;fct&gt;          &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+##  1 Burkina Faso   Africa     1957    34.9  4713416      617.
+##  2 Iraq           Asia       1962    51.5  7240260     8342.
+##  3 Peru           Americas   2007    71.4 28674757     7409.
+##  4 Tanzania       Africa     1962    44.2 10863958      722.
+##  5 Togo           Africa     1992    58.1  3747553     1034.
+##  6 Malaysia       Asia       2002    73.0 22662365    10207.
+##  7 Namibia        Africa     1962    48.4   621392     3173.
+##  8 Czech Republic Europe     1972    70.3  9862158    13108.
+##  9 Cambodia       Asia       1992    55.8 10150094      682.
+## 10 Myanmar        Asia       1987    58.3 38028578      385 
 ## # … with 20 more rows
 </code></pre>
 
@@ -1400,20 +1401,20 @@ summary(my.model)
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1557662745"></script>
-    <script src="/js/perfect-scrollbar.min.js?1557662745"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1557662745"></script>
-    <script src="/js/jquery.sticky.js?1557662745"></script>
-    <script src="/js/featherlight.min.js?1557662745"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1557662745"></script>
-    <script src="/js/highlight.pack.js?1557662745"></script>
+    <script src="/js/clipboard.min.js?1557737124"></script>
+    <script src="/js/perfect-scrollbar.min.js?1557737124"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1557737124"></script>
+    <script src="/js/jquery.sticky.js?1557737124"></script>
+    <script src="/js/featherlight.min.js?1557737124"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1557737124"></script>
+    <script src="/js/highlight.pack.js?1557737124"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1557662745"></script>
-    <script src="/js/learn.js?1557662745"></script>
-    <script src="/js/hugo-learn.js?1557662745"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1557737124"></script>
+    <script src="/js/learn.js?1557737124"></script>
+    <script src="/js/hugo-learn.js?1557737124"></script>
 
-    <link href="/mermaid/mermaid.css?1557662745" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1557662745"></script>
+    <link href="/mermaid/mermaid.css?1557737124" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1557737124"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

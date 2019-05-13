@@ -76,7 +76,7 @@ Individual vectors from the data frame can be accessed using `$` symbol:
 share.data$sector
 ```
 
-Now, as we have mastered the basics let us lern how access existing data from R.
+Now, as we have mastered the basics let us learn how to access existing data from R.
 
 
 
