@@ -6,7 +6,7 @@ weight: 2
 
 ## Install R
 
-To begin our journy to data science in R we need to install and make sure we can run it.
+To begin our journey to data science in R we need to install and make sure we can run it.
 
 We will start by installing R first and then RStudio. The analogy we can use here is that R is an airplane and R Studio is its airport.
 
@@ -15,7 +15,7 @@ We will start by installing R first and then RStudio. The analogy we can use her
 
 ![Red variant](/day1/installR/images/CRAN.png?width=40pc)
 
-Run the instalation
+Run the installation
 
 ![Red variant](/day1/installR/images/InstallR.png?width=40pc)
 
@@ -35,7 +35,7 @@ RStudio Desktop - <http://www.rstudio.com>
 RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and work-space management. You can check its features by visiting [RSTudio website](https://www.rstudio.com/products/rstudio/features/).
 
 {{% notice note %}}
-We recomend you chck regularly for R/Rstudio updates.
+We recomend you check regularly for R/Rstudio updates.
 {{% /notice %}}
 
 -----------------------------

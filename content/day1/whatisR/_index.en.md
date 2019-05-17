@@ -17,7 +17,7 @@ You can read more about the [history of S, R, and S-PLUS](https://www.whoishosti
 
 ## Then, R was born 😇🎶
 
-In early nineties at the University of Aucklandn in the Department of Statistics **R** was created by *Ross Ihaka* and *Robert Gentleman*.
+In the early nineties at the University of Auckland in the Department of Statistics **R** was created by *Ross Ihaka* and *Robert Gentleman*.
 
 They used [GNU General Public License](http://www.gnu.org/licenses/gpl-2.0.html) to make R open source free software. 
 
