@@ -9,7 +9,7 @@ title: The R Bootcamp
 
 ![Red variant](/images/bootcamp.jpg?width=40pc)
 
-> **R** together with **RStudio** is the best data science tool! It is open source and free software that is available to anyone with a desire to discover, learn, explore, experiance, expand and share the algorithms of their data science journy.  
+> **R** together with **RStudio** is the best data science tool! It is open source and free software that is available to anyone with a desire to discover, learn, explore, experience, expand and share the algorithms of their data science journey.  
 
 ![Red variant](/images/WEDeming.jpg?width=35pc)
 
