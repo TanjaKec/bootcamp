@@ -10,7 +10,7 @@ weight: 3
 
 ## Data Wrangling and Visualising Data
 
-##### In this module you will learn some of the fundamental techniques for data exploration and transformation through the use of dplyr package. This tidy verse package helps make your exploration intuitive to write and easy to read. You will learn dplyr’s key verbs for data manipulation that would help you uncover and shape the information within the data that is easy to turn into informative plots. Through the use of grammar of graphics plotting concepts implemented in ggplot2 package you will be able create meaningful exploratory plots. You will develop understanding about way in which you should be able to think about necessary data transformations and summaries that can lead to an informative visualisation.
+##### In this module you will learn some of the fundamental techniques for data exploration and transformation through the use of the dplyr package. This tidy verse package helps make your exploration intuitive to write and easy to read. You will learn dplyr’s key verbs for data manipulation that will help you uncover and shape the information within the data that is easy to turn into informative plots. Through the use of grammar of graphics plotting concepts implemented in the ggplot2 package you will be able create meaningful exploratory plots. You will develop understanding about way in which you should be able to think about necessary data transformations and summaries that can lead to an informative visualisation.
 
 #### What will you learn:
 
