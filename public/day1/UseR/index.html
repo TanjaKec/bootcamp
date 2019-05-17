@@ -12,18 +12,18 @@
     <title>How to use R? :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1557737124" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1557737124" rel="stylesheet">
-    <link href="/css/hybrid.css?1557737124" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1557737124" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1557737124" rel="stylesheet">
-    <link href="/css/auto-complete.css?1557737124" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1557737124" rel="stylesheet">
-    <link href="/css/theme.css?1557737124" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1557737124" rel="stylesheet">
+    <link href="/css/nucleus.css?1558098840" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1558098840" rel="stylesheet">
+    <link href="/css/hybrid.css?1558098840" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1558098840" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1558098840" rel="stylesheet">
+    <link href="/css/auto-complete.css?1558098840" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1558098840" rel="stylesheet">
+    <link href="/css/theme.css?1558098840" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1558098840" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1557737124"></script>
+    <script src="/js/jquery-3.3.1.min.js?1558098840"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1557737124"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1557737124"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1558098840"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1558098840"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1557737124"></script>
+<script type="text/javascript" src="/js/search.js?1558098840"></script>
 
     
   </div>
@@ -795,25 +795,25 @@
 <ul>
 <li>R is case-sensitive language which executes instructions directly;</li>
 <li>Commands are entered at prompt <code>&gt;</code></li>
-<li>Commands are separate statements which could be put in a same line if separated by a semi-colons <code>;</code>.</li>
+<li>Commands are separate statements which could be put the in a same line if separated by a semi-colon <code>;</code></li>
 <li>Code statements can be commented by using a <code>#</code> tag. You can comment in continuation of the command line or in a separate line.</li>
 </ul>
 
 <div class="notices tip" >
-💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy past the comands showing in the black boxes</span>, but rather you to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
+💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy paste the commands showing in the black boxes</span>, but to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
 </div>
 
 <h2 id="let-s-start-using-r">Let&rsquo;s start using R!</h2>
 
 <ul>
-<li><em>Turn on your computer (if you haven&rsquo;t already).</em></li>
+<li><em>Turn on your computer (if you haven&rsquo;t already)</em></li>
 <li><em>Open RStudio</em></li>
 <li><em>Create a project for your work. On the very right side of the window is a small blue R, and a drop-down menu. Select <code>New project</code>, then <code>New directory</code>, navigate to the desktop, and name the project <code>My_First_R</code>. This will create a folder with this name on the desktop. This will be your workspace for this project.</em> 😇</li>
 </ul>
 
 <h2 id="setting-up-your-working-directory">Setting up your working directory</h2>
 
-<p>If you want to read or write files on your computer from and to a specific location you will need to set working directory in R. To set the working directory in R to a specific folder on your computer you will use the following:</p>
+<p>If you want to read or write files on your computer from and to a specific location you will need to set a working directory in R. To set the working directory in R to a specific folder on your computer you will use the following:</p>
 
 <pre><code class="language-r"># On a pc, you would set working directory like this
 setwd(&quot;C:/Documents/MyR_Project&quot;)
@@ -822,7 +822,7 @@ setwd(&quot;C:/Documents/MyR_Project&quot;)
 setwd(&quot;~/documents/MyR_Project&quot;)
 </code></pre>
 
-<p>🤓💡: Make sure you fully adopt the correct sintax in terms of slashes and quotation marks.</p>
+<p>🤓💡: Make sure you fully adopt the correct syntax in terms of slashes and quotation marks.</p>
 
 <p>Note that the current working directory is displayed by RStudio within the title region of the Console. You can also setup your working directory by:</p>
 
@@ -842,7 +842,7 @@ setwd(&quot;~/documents/MyR_Project&quot;)
 
 <p><img src="/day1/UseR/images/SetWD1.png?width=20pc" alt="Red variant" /></p>
 
-<p>However, you should always start a fresh project (<strong>File | New Project&hellip;</strong>) that would automatically set up your working directory without having to point out to it in your script file. You should read <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow 💻🔥</a> article by <a href="https://jennybryan.org/">Jenny Bryan</a> to convince yourself that this would be a good habit you should adopt.</p>
+<p>However, you should always start a fresh project (<strong>File | New Project&hellip;</strong>) that would automatically set up your working directory without having to point it out to it in your script file. You should read <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow 💻🔥</a> article by <a href="https://jennybryan.org/">Jenny Bryan</a> to convince yourself that this would be a good habit you should adopt.</p>
 
 <h2 id="r-packages">R Packages</h2>
 
@@ -850,7 +850,7 @@ setwd(&quot;~/documents/MyR_Project&quot;)
 
 <p>R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <span style="color:red">C</span>omprehensive <span style="color:red">R</span> <span style="color:red">A</span>rchive <span style="color:red">N</span>etwork, or <span style="color:red">CRAN</span>, the public clearing house for R packages. Those pachages are developed by the experts in their fields and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis software packages, which is one of the reasons that R is so successful.</p>
 
-<p>When you run R you will authomatically upload the <a href="https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf"><code>package:base</code></a>, which is the system library, i.e. package where all standard functions are defined. The rest of the so called <em>base packages</em> contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using <code>install.packages()</code>. From RStudio menu you can do it by sellecting <strong>Tools | Install Packages&hellip;</strong> and typing the name of the desired package in the dialog window.</p>
+<p>When you run R you will authomatically upload the <a href="https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf"><code>package:base</code></a>, which is the system library, i.e. the package where all standard functions are defined. The rest of the so called <em>base packages</em> contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using <code>install.packages()</code>. From RStudio menu you can do it by sellecting <strong>Tools | Install Packages&hellip;</strong> and typing the name of the desired package in the dialogue window.</p>
 
 <p><img src="/day1/UseR/images/InstallPckg.png?width=20pc" alt="Red variant" /></p>
 
@@ -858,7 +858,7 @@ setwd(&quot;~/documents/MyR_Project&quot;)
 
 <p><img src="/day1/UseR/images/Packages.png?width=20pc" alt="Red variant" /></p>
 
-<p>🤓💡: Note that you can call dialog window to install a package from <strong>Packages panel</strong>! Have you spotted the <em>Install</em> icon yet?</p>
+<p>🤓💡: Note that you can call the dialog window to install a package from <strong>Packages panel</strong>! Have you spotted the <em>Install</em> icon yet?</p>
 
 <h2 id="calculate-in-r">Calculate in R</h2>
 
@@ -870,7 +870,7 @@ setwd(&quot;~/documents/MyR_Project&quot;)
 
 <h4 id="arithmetic-and-logical-operators">Arithmetic and Logical Operators</h4>
 
-<p>R’s binary and logical operators will look very familiar to those who have some experiance with programming.</p>
+<p>R’s binary and logical operators will look very familiar to those who have some experience with programming.</p>
 
 <h5 id="arithmetic-operators">Arithmetic Operators</h5>
 
@@ -892,9 +892,9 @@ setwd(&quot;~/documents/MyR_Project&quot;)
 
 <h4 id="reproducibility-save-your-scripts">Reproducibility: Save your scripts</h4>
 
-<p>The code you type and want to be executeed can be saved in scripts and R Markdown files. Scripts end with .R file extension and R Markdown files, which mixes both R code and Markdown code, end with .Rmd.</p>
+<p>The code you type and want to be executed can be saved in scripts and R Markdown files. Scripts ending with .R file extension and R Markdown files, which mixes both R code and Markdown code, end with .Rmd.</p>
 
-<p>🤓💡: The code that you writte just for quick exploration can be written in the console. Code we want to reuse and show off later should be saved as a script.</p>
+<p>🤓💡: The code that you write just for quick exploration can be written in the console. Code we want to reuse and show off later should be saved as a script.</p>
 
 <p>To create a new script go through the menu <strong>File | New File | R Script</strong> or through the green plus button on the top left.</p>
 
@@ -933,7 +933,7 @@ z
 
 <p>🤓💡 BUT, remember!!! <span style="color:red">Operator <strong>&lt;-</strong> is a composite made up from ‘less than’ and ‘minus’, with <strong>no space between them</strong>!!!!</span></p>
 
-<p>Try to type the follwoing</p>
+<p>Try to type the following</p>
 
 <pre><code>x&lt; -5
 y&lt; -6
@@ -946,7 +946,7 @@ y&lt; -6
 <pre><code>ls()
 </code></pre>
 
-<p>RStudio provides very confortble working environment and enables you to monitor your list of objects in the <strong>Environment</strong> panel window in the top right corner.</p>
+<p>RStudio provides very comfortable working environment and enables you to monitor your list of objects in the <strong>Environment</strong> panel window in the top right corner.</p>
 
 <p><img src="/day1/UseR/images/Environment_Panel.png?width=20pc" alt="Red variant" /></p>
 
@@ -985,11 +985,11 @@ p &lt;- abs(floor(log((100*x - y^2) / exp(z))))
 p
 </code></pre>
 
-<p>🤓💡 <span style="color:red">To obtain a description of a function</span> you need to type a question mark, <span style="color:red"><strong>?</strong></span>, in front of the name of the function. You might find this particularly useful when you start applying more complicated functions, as help will often provide you not only with the detailed description of the function’s input/output arguments, but practical illustrative examples on how the function can be used and applied. You should try to ask R for hlep for <code>lm()</code> function (can you tell what is it used for?)</p>
+<p>🤓💡 <span style="color:red">To obtain a description of a function</span> you need to type a question mark, <span style="color:red"><strong>?</strong></span>, in front of the name of the function. You might find this particularly useful when you start applying more complicated functions, as help will often provide you not only with the detailed description of the function’s input/output arguments, but practical illustrative examples on how the function can be used and applied. You should try to ask R for hlep for <code>lm()</code> function (can you tell what it is used for?)</p>
 
 <h4 id="vectors">Vectors</h4>
 
-<p>When analyised data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those number/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are <strong>vectors</strong></span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red"><strong>scalar</strong></span>) is a vector of length 1. We can assign to vectors in many different ways:</p>
+<p>When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are <strong>vectors</strong></span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red"><strong>scalar</strong></span>) is a vector of length 1. We can assign to vectors in many different ways:</p>
 
 <ul>
 <li>generated by R using the colon symbol (<code>:</code>) as a sequence generated operator or by using built in function <code>rep()</code> for replicating the given number for a given number of times.</li>
@@ -1114,7 +1114,7 @@ x
 <pre><code>## [1] 2
 </code></pre>
 
-<p><strong>Note💡</strong>: In R you can evaluate functions over the entire vectors which helps to avoid from looping.</p>
+<p><strong>Note💡</strong>: In R you can evaluate functions over the entire vectors which helps to avoid looping.</p>
 
 <pre><code class="language-r">y &lt;- c(4, 1, 0, 8, 1, x)
 max(y)
@@ -1649,20 +1649,20 @@ ncol = 3, byrow = TRUE)</code></p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1557737124"></script>
-    <script src="/js/perfect-scrollbar.min.js?1557737124"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1557737124"></script>
-    <script src="/js/jquery.sticky.js?1557737124"></script>
-    <script src="/js/featherlight.min.js?1557737124"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1557737124"></script>
-    <script src="/js/highlight.pack.js?1557737124"></script>
+    <script src="/js/clipboard.min.js?1558098840"></script>
+    <script src="/js/perfect-scrollbar.min.js?1558098840"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1558098840"></script>
+    <script src="/js/jquery.sticky.js?1558098840"></script>
+    <script src="/js/featherlight.min.js?1558098840"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1558098840"></script>
+    <script src="/js/highlight.pack.js?1558098840"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1557737124"></script>
-    <script src="/js/learn.js?1557737124"></script>
-    <script src="/js/hugo-learn.js?1557737124"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1558098840"></script>
+    <script src="/js/learn.js?1558098840"></script>
+    <script src="/js/hugo-learn.js?1558098840"></script>
 
-    <link href="/mermaid/mermaid.css?1557737124" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1557737124"></script>
+    <link href="/mermaid/mermaid.css?1558098840" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1558098840"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

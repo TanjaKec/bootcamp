@@ -24,22 +24,22 @@ You should take note of the following facts:
 
 - R is case-sensitive language which executes instructions directly; 
 - Commands are entered at prompt `>`
-- Commands are separate statements which could be put in a same line if separated by a semi-colons `;`.
+- Commands are separate statements which could be put the in a same line if separated by a semi-colon `;`
 - Code statements can be commented by using a `#` tag. You can comment in continuation of the command line or in a separate line.
 
 {{% notice tip %}}
-💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy past the comands showing in the black boxes</span>, but rather you to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
+💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy paste the commands showing in the black boxes</span>, but to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
 {{% /notice %}}
 
 ## Let's start using R! 
 
-- *Turn on your computer (if you haven't already).* 
+- *Turn on your computer (if you haven't already)* 
 - *Open RStudio*
 - *Create a project for your work. On the very right side of the window is a small blue R, and a drop-down menu. Select `New project`, then `New directory`, navigate to the desktop, and name the project `My_First_R`. This will create a folder with this name on the desktop. This will be your workspace for this project.* 😇
 
 ## Setting up your working directory
 
-If you want to read or write files on your computer from and to a specific location you will need to set working directory in R. To set the working directory in R to a specific folder on your computer you will use the following:
+If you want to read or write files on your computer from and to a specific location you will need to set a working directory in R. To set the working directory in R to a specific folder on your computer you will use the following:
 
 ``` r
 # On a pc, you would set working directory like this
@@ -49,7 +49,7 @@ setwd("C:/Documents/MyR_Project")
 setwd("~/documents/MyR_Project")
 ```
 
-🤓💡: Make sure you fully adopt the correct sintax in terms of slashes and quotation marks.
+🤓💡: Make sure you fully adopt the correct syntax in terms of slashes and quotation marks.
 
 Note that the current working directory is displayed by RStudio within the title region of the Console. You can also setup your working directory by:
 
@@ -65,7 +65,7 @@ Use the **More | Set As Working Directory** menu
 
 ![Red variant](/day1/UseR/images/SetWD1.png?width=20pc)
 
-However, you should always start a fresh project (**File | New Project...**) that would automatically set up your working directory without having to point out to it in your script file. You should read [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
+However, you should always start a fresh project (**File | New Project...**) that would automatically set up your working directory without having to point it out to it in your script file. You should read [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
 
 ## R Packages
 
@@ -73,7 +73,7 @@ However, you should always start a fresh project (**File | New Project...**) tha
 
 R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <span style="color:red">C</span>omprehensive <span style="color:red">R</span> <span style="color:red">A</span>rchive <span style="color:red">N</span>etwork, or <span style="color:red">CRAN</span>, the public clearing house for R packages. Those pachages are developed by the experts in their fields and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis software packages, which is one of the reasons that R is so successful.  
 
-When you run R you will authomatically upload the [`package:base`](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf), which is the system library, i.e. package where all standard functions are defined. The rest of the so called *base packages* contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using `install.packages()`. From RStudio menu you can do it by sellecting **Tools | Install Packages...** and typing the name of the desired package in the dialog window.
+When you run R you will authomatically upload the [`package:base`](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf), which is the system library, i.e. the package where all standard functions are defined. The rest of the so called *base packages* contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using `install.packages()`. From RStudio menu you can do it by sellecting **Tools | Install Packages...** and typing the name of the desired package in the dialogue window.
 
 ![Red variant](/day1/UseR/images/InstallPckg.png?width=20pc)
 
@@ -81,7 +81,7 @@ Once installed, the package will apear in the list of the available packages in 
 
 ![Red variant](/day1/UseR/images/Packages.png?width=20pc)
 
-🤓💡: Note that you can call dialog window to install a package from **Packages panel**! Have you spotted the *Install* icon yet?
+🤓💡: Note that you can call the dialog window to install a package from **Packages panel**! Have you spotted the *Install* icon yet?
 
 ## Calculate in R
 
@@ -93,7 +93,7 @@ You see?! R is like a big calculator! 😲
 
 #### Arithmetic and Logical Operators
 
-R’s binary and logical operators will look very familiar to those who have some experiance with programming.
+R’s binary and logical operators will look very familiar to those who have some experience with programming.
 
 #####  Arithmetic Operators 
 
@@ -116,9 +116,9 @@ Try doing other math operations, like subtraction, multiplication, division, or 
 
 #### Reproducibility: Save your scripts
 
-The code you type and want to be executeed can be saved in scripts and R Markdown files. Scripts end with .R file extension and R Markdown files, which mixes both R code and Markdown code, end with .Rmd.
+The code you type and want to be executed can be saved in scripts and R Markdown files. Scripts ending with .R file extension and R Markdown files, which mixes both R code and Markdown code, end with .Rmd.
 
-🤓💡: The code that you writte just for quick exploration can be written in the console. Code we want to reuse and show off later should be saved as a script.
+🤓💡: The code that you write just for quick exploration can be written in the console. Code we want to reuse and show off later should be saved as a script.
 
 To create a new script go through the menu **File | New File | R Script** or through the green plus button on the top left.
 
@@ -160,7 +160,7 @@ z
 
 🤓💡 BUT, remember!!! <span style="color:red">Operator **<-** is a composite made up from ‘less than’ and ‘minus’, with **no space between them**!!!!</span> 
 
-Try to type the follwoing 
+Try to type the following 
 ```
 x< -5
 y< -6
@@ -173,7 +173,7 @@ After you’ve created some objects in R you can get a list of them using `ls()`
 ls()
 ```
 
-RStudio provides very confortble working environment and enables you to monitor your list of objects in the **Environment** panel window in the top right corner. 
+RStudio provides very comfortable working environment and enables you to monitor your list of objects in the **Environment** panel window in the top right corner. 
 
 ![Red variant](/day1/UseR/images/Environment_Panel.png?width=20pc)
 
@@ -215,11 +215,11 @@ p <- abs(floor(log((100*x - y^2) / exp(z))))
 p
 ```
 
-🤓💡 <span style="color:red">To obtain a description of a function</span> you need to type a question mark, <span style="color:red">**?**</span>, in front of the name of the function. You might find this particularly useful when you start applying more complicated functions, as help will often provide you not only with the detailed description of the function’s input/output arguments, but practical illustrative examples on how the function can be used and applied. You should try to ask R for hlep for `lm()` function (can you tell what is it used for?)
+🤓💡 <span style="color:red">To obtain a description of a function</span> you need to type a question mark, <span style="color:red">**?**</span>, in front of the name of the function. You might find this particularly useful when you start applying more complicated functions, as help will often provide you not only with the detailed description of the function’s input/output arguments, but practical illustrative examples on how the function can be used and applied. You should try to ask R for hlep for `lm()` function (can you tell what it is used for?)
 
 #### Vectors
 
-When analyised data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those number/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are **vectors**</span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red">**scalar**</span>) is a vector of length 1. We can assign to vectors in many different ways:
+When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are **vectors**</span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red">**scalar**</span>) is a vector of length 1. We can assign to vectors in many different ways:
 
 * generated by R using the colon symbol (`:`) as a sequence generated operator or by using built in function `rep()` for replicating the given number for a given number of times.
 
@@ -374,7 +374,7 @@ x[4]
 ## [1] 2
 ```
 
-**Note💡**: In R you can evaluate functions over the entire vectors which helps to avoid from looping.
+**Note💡**: In R you can evaluate functions over the entire vectors which helps to avoid looping.
 
 
 ```r

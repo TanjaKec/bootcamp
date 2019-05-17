@@ -6,7 +6,7 @@ weight: 4
 
 ## RStudio's layout 
 
-When you open RStusio for the first time it will be split into three sections. Each section has its own tab with shortcuts for the relevant options available from the main RStudio menu. 
+When you open RStudio for the first time it will be split into three sections. Each section has its own tab with shortcuts for the relevant options available from the main RStudio menu. 
 
 ![Red variant](/day1/RStudioIDE/images/RStudioWindow.png?width=40pc)
 

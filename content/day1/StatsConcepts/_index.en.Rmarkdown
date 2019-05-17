@@ -63,13 +63,13 @@ The way to proceed depends upon the type of variable being examined.
 
 The variables can be one of two broad types:
 
--	**Attribute variables**: ia s variable that has its outcomes described in terms of its characteristics or attributes. 
+-	**Attribute variables**: is a variable that has its outcomes described in terms of its characteristics or attributes. 
   * gender
   * days in a week
   
-Common way of handling attribute data is to give it a numerical code. Hence, we often referred to them as coded variables.
+A common way of handling attribute data is to give it a numerical code. Hence, we often referred to them as coded variables.
 
--	**Measured variables**: is a variable that has its outcomes taken of a numerical scale; the resulting outcome is expressed in numerical terms.  
+-	**Measured variables**: is a variable that has its outcomes taken from a numerical scale; the resulting outcome is expressed in numerical terms.  
   * weight
   * age
 
@@ -78,7 +78,7 @@ There are two types of measured variables, a measured variable that is measured 
 
 ### The Concept of Statistical Distribution
 
-**The concept of the statistical distribution is central to statistical analysis.**
+**The concept of statistical distribution is central to statistical analysis.**
 
 This concept relates to the population and conceptually assumes that we have perfect information, the exact composition of the population is known. 
 
@@ -110,7 +110,7 @@ abline(v = c(-1,1), col="blue", lwd=2, lty=3)
 
 For an attribute variable it is very simple. We observe the frequency of occurance of each level of the attribute variable as shown in the barplot above.
 
-For measured variable the area under the curve from one value to another measures the relative proportion of the population having the oucome value in that range. 
+For a measured variable the area under the curve from one value to another measures the relative proportion of the population having the oucome value in that range. 
 
 A statistical distribution for a measured variable can be summarised using three key descriptions:
 
@@ -305,7 +305,8 @@ The 'Further Data Analysis' is procedure that enables a decision to be made, bas
 These statistical procedures are called <span style="color:red">**hypothesis tests**</span>, which essentially <span style="color:red">*provide a decision rule for choosing between one of the two outcomes*</span>: "There is no relationship" or "There is a relationship" based on the sample evidence.
 
 All hypothesis tests are carried out in four stages:
-- Stage 1:		Specifying the hypotheses.
+- Stage 1:		S
+pecifying the hypotheses.
 
 - Stage 2:		Defining the test parameters and the decision rule.
 
@@ -337,9 +338,11 @@ All hypothesis tests are carried out in four stages:
 
 Make sure you can answer the followng questions:
 
-1)	What are the underlying ideas that enable a relationship between two variables to be investigated? What is the purpose of summary statistics?
+1)	What are the underlying ideas that enable a relationship between two variables to be investigated?
 
-2)	What is the data analysis methodology for exploring the relationship between:
+2) What is the purpose of summary statistics?
+
+3)	What is the data analysis methodology for exploring the relationship between:
 
   i) a measured response variable and an attribute explanatory variable?
   
