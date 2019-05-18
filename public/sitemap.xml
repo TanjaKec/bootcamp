@@ -94,12 +94,19 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/tags/tatjana-kecojevic/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   

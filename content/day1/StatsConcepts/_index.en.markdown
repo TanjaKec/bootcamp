@@ -4,6 +4,8 @@ title: Basic Stats Concepts
 output: 
   learnr::tutorial
 weight: 6
+tags:  
+  - Tatjana Kecojevic
 ---
 
 
