@@ -312,9 +312,9 @@ pecifying the hypotheses.
 
 ## YOUR TURN 👇
 
-Make sure you can answer the followng questions:
+Make sure you can answer the following questions:
 
-1)	What are the underlying ideas that enable a relationship between two variables to be investigated?
+1) What are the underlying ideas that enable a relationship between two variables to be investigated?
 
 2) What is the purpose of summary statistics?
 

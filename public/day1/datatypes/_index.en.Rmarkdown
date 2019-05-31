@@ -6,9 +6,9 @@ output:
 weight: 7
 ---
 
-The examples we have used in 'How to Use R' section are all dealing with numbers (quantitative numerical data). Those of you familiar with programming will know that numerical objects can be classified as real, integer, double or complex. To check if an object is numeric and of what type it is, you can use `mode()` and `class()` functions respectively.
+The examples we have used in 'How to Use R' section are all dealing with numbers (quantitative numerical data). Those of you familiar with programming will know that numerical objects can be classified as real, integer, double or complex. To check if an object is numeric and what type it is, you can use `mode()` and `class()` functions respectively.
 
-Let us go back into our R project and type the following into the open scrip file and run the code.😃
+Let us go back into our R project and type the following into the open script file and run the code.😃
 
 ```{r}
 x <- 1:10
@@ -16,14 +16,14 @@ mode(x)
 class(x)
 ```
 
-In R to enter strings of characters as objects you need to enter them using quote marks around them. By default expects all inputs to be numeric and unless you use quote marks around the strings you wish to enter, it will consider them as numbers and subsequently will return an error message.
+In R to enter strings of characters as objects you need to enter them using quote marks around them. By default it expects all inputs to be numeric and unless you use quote marks around the strings you wish to enter, it will consider them as numbers and subsequently will return an error message.
 
 ```{r}
 x <- c("UK", "Spain", "Serbia", "France", "Germany", "Italy")
 mode(x)
 ```
 
-It is common in statistical data to have attribute also known as categorical variables. In R such variables should be specified as **factors**. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
+It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
 
 ```{r}
 x <- c("UK", "Spain", "Serbia", "France", "Germany", "Italy")
@@ -31,7 +31,7 @@ x <- factor(x)
 x
 ```
 
-🤓💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usual coded and you would ususally enter them as such.
+🤓💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usual coded and you would usually enter them as such.
 
 ```{r}
 quality <- factor(c(3, 3, 4, 2, 2, 4, 0, 1))

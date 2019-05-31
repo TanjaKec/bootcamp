@@ -12,18 +12,18 @@
     <title>Data Types :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1558164185" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1558164185" rel="stylesheet">
-    <link href="/css/hybrid.css?1558164185" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1558164185" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1558164185" rel="stylesheet">
-    <link href="/css/auto-complete.css?1558164185" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1558164185" rel="stylesheet">
-    <link href="/css/theme.css?1558164185" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1558164185" rel="stylesheet">
+    <link href="/css/nucleus.css?1559299692" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1559299692" rel="stylesheet">
+    <link href="/css/hybrid.css?1559299692" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1559299692" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1559299692" rel="stylesheet">
+    <link href="/css/auto-complete.css?1559299692" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1559299692" rel="stylesheet">
+    <link href="/css/theme.css?1559299692" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1559299692" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1558164185"></script>
+    <script src="/js/jquery-3.3.1.min.js?1559299692"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1558164185"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1558164185"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1559299692"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1559299692"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1558164185"></script>
+<script type="text/javascript" src="/js/search.js?1559299692"></script>
 
     
   </div>
@@ -405,13 +405,13 @@
  
   
     
-    <li data-nav-id="/day1/inportexport/" title="Inport Data inot R" class="dd-item 
+    <li data-nav-id="/day1/inportexport/" title="Import Data inot R" class="dd-item 
         
         
         
         ">
       <a href="/day1/inportexport/">
-          Inport Data inot R
+          Import Data inot R
           
             <i class="fas fa-check read-icon"></i>
           
@@ -757,9 +757,9 @@
 
 	
 
-<p>The examples we have used in &lsquo;How to Use R&rsquo; section are all dealing with numbers (quantitative numerical data). Those of you familiar with programming will know that numerical objects can be classified as real, integer, double or complex. To check if an object is numeric and of what type it is, you can use <code>mode()</code> and <code>class()</code> functions respectively.</p>
+<p>The examples we have used in &lsquo;How to Use R&rsquo; section are all dealing with numbers (quantitative numerical data). Those of you familiar with programming will know that numerical objects can be classified as real, integer, double or complex. To check if an object is numeric and what type it is, you can use <code>mode()</code> and <code>class()</code> functions respectively.</p>
 
-<p>Let us go back into our R project and type the following into the open scrip file and run the code.😃</p>
+<p>Let us go back into our R project and type the following into the open script file and run the code.😃</p>
 
 <pre><code class="language-r">x &lt;- 1:10
 mode(x)
@@ -774,7 +774,7 @@ mode(x)
 <pre><code>## [1] &quot;integer&quot;
 </code></pre>
 
-<p>In R to enter strings of characters as objects you need to enter them using quote marks around them. By default expects all inputs to be numeric and unless you use quote marks around the strings you wish to enter, it will consider them as numbers and subsequently will return an error message.</p>
+<p>In R to enter strings of characters as objects you need to enter them using quote marks around them. By default it expects all inputs to be numeric and unless you use quote marks around the strings you wish to enter, it will consider them as numbers and subsequently will return an error message.</p>
 
 <pre><code class="language-r">x &lt;- c(&quot;UK&quot;, &quot;Spain&quot;, &quot;Serbia&quot;, &quot;France&quot;, &quot;Germany&quot;, &quot;Italy&quot;)
 mode(x)
@@ -783,7 +783,7 @@ mode(x)
 <pre><code>## [1] &quot;character&quot;
 </code></pre>
 
-<p>It is common in statistical data to have attribute also known as categorical variables. In R such variables should be specified as <strong>factors</strong>. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.</p>
+<p>It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as <strong>factors</strong>. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.</p>
 
 <pre><code class="language-r">x &lt;- c(&quot;UK&quot;, &quot;Spain&quot;, &quot;Serbia&quot;, &quot;France&quot;, &quot;Germany&quot;, &quot;Italy&quot;)
 x &lt;- factor(x)
@@ -794,7 +794,7 @@ x
 ## Levels: France Germany Italy Serbia Spain UK
 </code></pre>
 
-<p>🤓💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usual coded and you would ususally enter them as such.</p>
+<p>🤓💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usual coded and you would usually enter them as such.</p>
 
 <pre><code class="language-r">quality &lt;- factor(c(3, 3, 4, 2, 2, 4, 0, 1))
 levels(quality)
@@ -1241,7 +1241,7 @@ share.data
 			<a class="nav nav-prev" href="/day1/statsconcepts/" title="Basic Stats Concepts"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/day1/inportexport/" title="Inport Data inot R" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/day1/inportexport/" title="Import Data inot R" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1251,20 +1251,20 @@ share.data
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1558164185"></script>
-    <script src="/js/perfect-scrollbar.min.js?1558164185"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1558164185"></script>
-    <script src="/js/jquery.sticky.js?1558164185"></script>
-    <script src="/js/featherlight.min.js?1558164185"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1558164185"></script>
-    <script src="/js/highlight.pack.js?1558164185"></script>
+    <script src="/js/clipboard.min.js?1559299692"></script>
+    <script src="/js/perfect-scrollbar.min.js?1559299692"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1559299692"></script>
+    <script src="/js/jquery.sticky.js?1559299692"></script>
+    <script src="/js/featherlight.min.js?1559299692"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1559299692"></script>
+    <script src="/js/highlight.pack.js?1559299692"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1558164185"></script>
-    <script src="/js/learn.js?1558164185"></script>
-    <script src="/js/hugo-learn.js?1558164185"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1559299692"></script>
+    <script src="/js/learn.js?1559299692"></script>
+    <script src="/js/hugo-learn.js?1559299692"></script>
 
-    <link href="/mermaid/mermaid.css?1558164185" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1558164185"></script>
+    <link href="/mermaid/mermaid.css?1559299692" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1559299692"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
