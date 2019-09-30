@@ -22,7 +22,7 @@ In this module you will set up the working environment, connect to GitHub and pa
 
 **Data Wrangling and Visualising Data**
 
-In this module you will learn some of the fundamental techniques for data exploration and transformation through the use of the dplyr package. This tidy verse package helps make your exploration intuitive to write and easy to read. You will learn dplyr’s key verbs for data manipulation that will help you uncover and shape the information within the data that is easy to turn into informative plots. Through the use of grammar of graphics plotting concepts implemented in the ggplot2 package you will be able create meaningful exploratory plots. You will develop understanding about way in which you should be able to think about necessary data transformations and summaries that can lead to an informative visualisation.
+In this module you will learn some of the fundamental techniques for data exploration and transformation through the use of the dplyr package. This tidy verse package helps make your exploration intuitive to write and easy to read. You will learn dplyr’s key verbs for data manipulation that will help you uncover and shape the information within the data that is easy to turn into informative plots. Through the use of grammar of graphics plotting concepts implemented in the ggplot2 package, you will be able create meaningful exploratory plots. You will develop understanding about the way in which you should be able to think about necessary data transformations and summaries that can lead to an informative visualisation.
 
 **What will you learn:**
 
@@ -35,7 +35,7 @@ In this module you will learn some of the fundamental techniques for data explor
 ### Day 3
 **Reproduceable and automated reporting using RMarkdown and designing a website using HUGO and blogdown.**
 
-In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process, learning how to take a modern approach to telling your data storry. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. You will learn to design a static website that will enable you to post your data science storry telling to a wider audience.
+In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process, learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. You will learn to design a static website that will enable you to post your data science story telling to a wider audience.
 
 **What will you learn:**
 
