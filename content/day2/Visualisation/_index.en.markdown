@@ -1,12 +1,12 @@
 ---
 date: "2016-04-09T16:50:16+02:00"
-title: Data Visuaisation
+title: Data Visualisation
 output: 
   learnr::tutorial
 weight: 2
 ---
 
-Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
+Most of you, if not all, would be familiar with creating the graphs in Excel. Software such as Excel has a predefined set of menu options for plotting the data that is the focus of the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
 
 ### Grammar of Graphics
 
@@ -150,18 +150,18 @@ sample_n(gapminder, 30)
 
 ```
 ## # A tibble: 30 x 6
-##    country        continent  year lifeExp      pop gdpPercap
-##    <fct>          <fct>     <int>   <dbl>    <int>     <dbl>
-##  1 Burkina Faso   Africa     1957    34.9  4713416      617.
-##  2 Iraq           Asia       1962    51.5  7240260     8342.
-##  3 Peru           Americas   2007    71.4 28674757     7409.
-##  4 Tanzania       Africa     1962    44.2 10863958      722.
-##  5 Togo           Africa     1992    58.1  3747553     1034.
-##  6 Malaysia       Asia       2002    73.0 22662365    10207.
-##  7 Namibia        Africa     1962    48.4   621392     3173.
-##  8 Czech Republic Europe     1972    70.3  9862158    13108.
-##  9 Cambodia       Asia       1992    55.8 10150094      682.
-## 10 Myanmar        Asia       1987    58.3 38028578      385 
+##    country     continent  year lifeExp       pop gdpPercap
+##    <fct>       <fct>     <int>   <dbl>     <int>     <dbl>
+##  1 Comoros     Africa     1997    60.7    527982     1174.
+##  2 Argentina   Americas   1997    73.3  36203463    10967.
+##  3 Poland      Europe     1972    70.8  33039545     8007.
+##  4 India       Asia       1977    54.2 634000000      813.
+##  5 Swaziland   Africa     1987    57.7    779348     3985.
+##  6 Spain       Europe     1972    73.1  34513161    10639.
+##  7 Philippines Asia       1962    54.8  30325264     1650.
+##  8 Slovenia    Europe     1962    69.2   1582962     7402.
+##  9 Lesotho     Africa     1962    47.7    893143      412.
+## 10 Mozambique  Africa     1987    42.9  12891952      390.
 ## # … with 20 more rows
 ```
 

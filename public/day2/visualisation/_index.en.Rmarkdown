@@ -1,12 +1,12 @@
 ---
 date: "2016-04-09T16:50:16+02:00"
-title: Data Visuaisation
+title: Data Visualisation
 output: 
   learnr::tutorial
 weight: 2
 ---
 
-Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
+Most of you, if not all, would be familiar with creating the graphs in Excel. Software such as Excel has a predefined set of menu options for plotting the data that is the focus of the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
 
 ### Grammar of Graphics
 

@@ -9,21 +9,21 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Data Visuaisation :: R Bootcamp</title>
+    <title>Data Visualisation :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1569843477" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1569843477" rel="stylesheet">
-    <link href="/css/hybrid.css?1569843477" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1569843477" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1569843477" rel="stylesheet">
-    <link href="/css/auto-complete.css?1569843477" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1569843477" rel="stylesheet">
-    <link href="/css/theme.css?1569843477" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1569843477" rel="stylesheet">
+    <link href="/css/nucleus.css?1569843696" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1569843696" rel="stylesheet">
+    <link href="/css/hybrid.css?1569843696" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1569843696" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1569843696" rel="stylesheet">
+    <link href="/css/auto-complete.css?1569843696" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1569843696" rel="stylesheet">
+    <link href="/css/theme.css?1569843696" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1569843696" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1569843477"></script>
+    <script src="/js/jquery-3.3.1.min.js?1569843696"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1569843477"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1569843477"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1569843696"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1569843696"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1569843477"></script>
+<script type="text/javascript" src="/js/search.js?1569843696"></script>
 
     
   </div>
@@ -493,13 +493,13 @@
  
   
     
-    <li data-nav-id="/day2/visualisation/" title="Data Visuaisation" class="dd-item 
+    <li data-nav-id="/day2/visualisation/" title="Data Visualisation" class="dd-item 
         parent
         active
         
         ">
       <a href="/day2/visualisation/">
-          Data Visuaisation
+          Data Visualisation
           
             <i class="fas fa-check read-icon"></i>
           
@@ -707,7 +707,7 @@
             
           
           
-            <a href='/'>The R Bootcamp</a> > <a href='/day2/'>Day 2</a> > Data Visuaisation
+            <a href='/'>The R Bootcamp</a> > <a href='/day2/'>Day 2</a> > Data Visualisation
           
          
           
@@ -764,7 +764,7 @@
           
             <h1>
               
-              Data Visuaisation
+              Data Visualisation
             </h1>
           
 
@@ -775,7 +775,7 @@
 
 	
 
-<p>Most of you, if not all, would be familiar in creating the graphs in Excel. Software such Excel has a predifined set of menu options for plotting the data that is focus a the end result: &ldquo;pretty graph&rdquo;. Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation.</p>
+<p>Most of you, if not all, would be familiar with creating the graphs in Excel. Software such as Excel has a predefined set of menu options for plotting the data that is the focus of the end result: &ldquo;pretty graph&rdquo;. Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation.</p>
 
 <h3 id="grammar-of-graphics">Grammar of Graphics</h3>
 
@@ -915,18 +915,18 @@ Is the relationship linear? What conclusion(s) can you draw?</p>
 </code></pre>
 
 <pre><code>## # A tibble: 30 x 6
-##    country        continent  year lifeExp      pop gdpPercap
-##    &lt;fct&gt;          &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
-##  1 Burkina Faso   Africa     1957    34.9  4713416      617.
-##  2 Iraq           Asia       1962    51.5  7240260     8342.
-##  3 Peru           Americas   2007    71.4 28674757     7409.
-##  4 Tanzania       Africa     1962    44.2 10863958      722.
-##  5 Togo           Africa     1992    58.1  3747553     1034.
-##  6 Malaysia       Asia       2002    73.0 22662365    10207.
-##  7 Namibia        Africa     1962    48.4   621392     3173.
-##  8 Czech Republic Europe     1972    70.3  9862158    13108.
-##  9 Cambodia       Asia       1992    55.8 10150094      682.
-## 10 Myanmar        Asia       1987    58.3 38028578      385 
+##    country     continent  year lifeExp       pop gdpPercap
+##    &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;     &lt;int&gt;     &lt;dbl&gt;
+##  1 Comoros     Africa     1997    60.7    527982     1174.
+##  2 Argentina   Americas   1997    73.3  36203463    10967.
+##  3 Poland      Europe     1972    70.8  33039545     8007.
+##  4 India       Asia       1977    54.2 634000000      813.
+##  5 Swaziland   Africa     1987    57.7    779348     3985.
+##  6 Spain       Europe     1972    73.1  34513161    10639.
+##  7 Philippines Asia       1962    54.8  30325264     1650.
+##  8 Slovenia    Europe     1962    69.2   1582962     7402.
+##  9 Lesotho     Africa     1962    47.7    893143      412.
+## 10 Mozambique  Africa     1987    42.9  12891952      390.
 ## # … with 20 more rows
 </code></pre>
 
@@ -1402,20 +1402,20 @@ summary(my.model)
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1569843477"></script>
-    <script src="/js/perfect-scrollbar.min.js?1569843477"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1569843477"></script>
-    <script src="/js/jquery.sticky.js?1569843477"></script>
-    <script src="/js/featherlight.min.js?1569843477"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1569843477"></script>
-    <script src="/js/highlight.pack.js?1569843477"></script>
+    <script src="/js/clipboard.min.js?1569843696"></script>
+    <script src="/js/perfect-scrollbar.min.js?1569843696"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1569843696"></script>
+    <script src="/js/jquery.sticky.js?1569843696"></script>
+    <script src="/js/featherlight.min.js?1569843696"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1569843696"></script>
+    <script src="/js/highlight.pack.js?1569843696"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1569843477"></script>
-    <script src="/js/learn.js?1569843477"></script>
-    <script src="/js/hugo-learn.js?1569843477"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1569843696"></script>
+    <script src="/js/learn.js?1569843696"></script>
+    <script src="/js/hugo-learn.js?1569843696"></script>
 
-    <link href="/mermaid/mermaid.css?1569843477" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1569843477"></script>
+    <link href="/mermaid/mermaid.css?1569843696" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1569843696"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
