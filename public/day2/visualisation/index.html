@@ -12,18 +12,18 @@
     <title>Data Visualisation :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1569843879" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1569843879" rel="stylesheet">
-    <link href="/css/hybrid.css?1569843879" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1569843879" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1569843879" rel="stylesheet">
-    <link href="/css/auto-complete.css?1569843879" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1569843879" rel="stylesheet">
-    <link href="/css/theme.css?1569843879" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1569843879" rel="stylesheet">
+    <link href="/css/nucleus.css?1569844367" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1569844367" rel="stylesheet">
+    <link href="/css/hybrid.css?1569844367" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1569844367" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1569844367" rel="stylesheet">
+    <link href="/css/auto-complete.css?1569844367" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1569844367" rel="stylesheet">
+    <link href="/css/theme.css?1569844367" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1569844367" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1569843879"></script>
+    <script src="/js/jquery-3.3.1.min.js?1569844367"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1569843879"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1569843879"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1569844367"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1569844367"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1569843879"></script>
+<script type="text/javascript" src="/js/search.js?1569844367"></script>
 
     
   </div>
@@ -779,9 +779,9 @@
 
 <h3 id="grammar-of-graphics">Grammar of Graphics</h3>
 
-<p>The <a href="http://vita.had.co.nz/papers/layered-grammar.html">grammer of graphics</a> enables a structured way of creating a plot by adding the components as layers making it look effective and attractive.</p>
+<p>The <a href="http://vita.had.co.nz/papers/layered-grammar.html">grammer of graphics</a> enables a structured way of creating a plot by adding the components as layers, making it look effective and attractive.</p>
 
-<p>Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:</p>
+<p>It enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:</p>
 
 <ul>
 <li><p>data</p></li>
@@ -805,9 +805,9 @@
 
 <h4 id="ggplot2">ggplot2</h4>
 
-<p>Learning how to use the <code>ggplot2</code> package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.</p>
+<p>Learning how to use the <code>ggplot2</code> package can be challenging, but the results are highly rewarding and just like R itself, it becomes easier the more you use it.</p>
 
-<p>The best way to master it is by practicing. So let us create a first <code>ggplot</code>. 😃
+<p>The best way to master it is by practising. So let us create a first <code>ggplot</code>. 😃
 What we need to do is the following:</p>
 
 <ol>
@@ -821,7 +821,7 @@ suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(gapminder))
 suppressPackageStartupMessages(library(ggplot2))
 
-# wrangle the data (can you remember what does this code do?)
+# wrangle the data (Can you remember what this code do?)
 gapminder_pipe &lt;- gapminder %&gt;%
 filter(continent == &quot;Europe&quot; &amp; year ==  2007) %&gt;%
 mutate(pop_e6 = pop / 1000000)
@@ -841,7 +841,7 @@ geom_point(col =&quot;red&quot;)
 
 <h5 id="span-style-color-red-ggplot-span-gallery"><span style="color:red">ggplot()</span> gallery</h5>
 
-<p>Run the following code to see what graphs it&rsquo;s going to produce.</p>
+<p>Run the following code to see what graphs it will produce.</p>
 
 <pre><code class="language-r">ggplot(data = gapminder, mapping = aes(x = lifeExp), binwidth = 10) +
   geom_histogram()
@@ -870,7 +870,7 @@ ggplot(data = gapminder, mapping = aes(x = continent, fill = continent)) +
 summary(m1)
 </code></pre>
 
-<p><strong>Can you answer the question usig the output of the fitted model?</strong></p>
+<p><strong>Can you answer the question using the output of the fitted model?</strong></p>
 
 <pre><code class="language-r">m1 &lt;- lm(gapminder_pipe$lifeExp ~ gapminder_pipe$pop_e6)
 summary(m1)
@@ -902,7 +902,7 @@ summary(m1)
 
 <p>1) Have a glance at the data. (tip: <code>sample_n(df, n)</code>)</p>
 
-<p>2) Produce a scattep plot: what does it tell you?</p>
+<p>2) Produce a scatter plot: what does it tell you?</p>
 
 <p>3) Fit a regression model: is there a relationship? How strong is it?
 Is the relationship linear? What conclusion(s) can you draw?</p>
@@ -915,18 +915,18 @@ Is the relationship linear? What conclusion(s) can you draw?</p>
 </code></pre>
 
 <pre><code>## # A tibble: 30 x 6
-##    country           continent  year lifeExp       pop gdpPercap
-##    &lt;fct&gt;             &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;     &lt;int&gt;     &lt;dbl&gt;
-##  1 Equatorial Guinea Africa     1992    47.5    387838     1132.
-##  2 Egypt             Africa     1957    44.4  25009741     1459.
-##  3 Albania           Europe     1977    68.9   2509048     3533.
-##  4 Pakistan          Asia       1972    51.9  69325921     1050.
-##  5 Venezuela         Americas   1982    68.6  15620766    11152.
-##  6 Denmark           Europe     2007    78.3   5468120    35278.
-##  7 Brazil            Americas   1967    57.6  88049823     3430.
-##  8 India             Asia       1982    56.6 708000000      856.
-##  9 Bolivia           Americas   1967    45.0   4040665     2587.
-## 10 Lebanon           Asia       1962    62.1   1886848     5715.
+##    country       continent  year lifeExp      pop gdpPercap
+##    &lt;fct&gt;         &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+##  1 Iraq          Asia       1962    51.5  7240260     8342.
+##  2 Austria       Europe     1972    70.6  7544201    16662.
+##  3 Cote d'Ivoire Africa     1977    52.4  7459574     2518.
+##  4 Vietnam       Asia       1992    67.7 69940728      989.
+##  5 Swaziland     Africa     1967    46.6   420690     2613.
+##  6 Australia     Oceania    1987    76.3 16257249    21889.
+##  7 Netherlands   Europe     1987    76.8 14665278    23651.
+##  8 Ecuador       Americas   1977    61.3  7278866     6680.
+##  9 Tanzania      Africa     2002    49.7 34593779      899.
+## 10 Tunisia       Africa     1987    66.9  7724976     3810.
 ## # … with 20 more rows
 </code></pre>
 
@@ -1402,20 +1402,20 @@ summary(my.model)
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1569843879"></script>
-    <script src="/js/perfect-scrollbar.min.js?1569843879"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1569843879"></script>
-    <script src="/js/jquery.sticky.js?1569843879"></script>
-    <script src="/js/featherlight.min.js?1569843879"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1569843879"></script>
-    <script src="/js/highlight.pack.js?1569843879"></script>
+    <script src="/js/clipboard.min.js?1569844367"></script>
+    <script src="/js/perfect-scrollbar.min.js?1569844367"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1569844367"></script>
+    <script src="/js/jquery.sticky.js?1569844367"></script>
+    <script src="/js/featherlight.min.js?1569844367"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1569844367"></script>
+    <script src="/js/highlight.pack.js?1569844367"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1569843879"></script>
-    <script src="/js/learn.js?1569843879"></script>
-    <script src="/js/hugo-learn.js?1569843879"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1569844367"></script>
+    <script src="/js/learn.js?1569844367"></script>
+    <script src="/js/hugo-learn.js?1569844367"></script>
 
-    <link href="/mermaid/mermaid.css?1569843879" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1569843879"></script>
+    <link href="/mermaid/mermaid.css?1569844367" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1569844367"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

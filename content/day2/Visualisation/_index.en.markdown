@@ -10,9 +10,9 @@ Most of you, if not all, would be familiar with creating the graphs in Excel. So
 
 ### Grammar of Graphics
 
-The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and attractive. 
+The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers, making it look effective and attractive. 
 
-Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
+It enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
 
 - data
 
@@ -35,9 +35,9 @@ Imagine talking about baking a cake and adding a cherry on the top. 🎂🍒 Thi
 
 #### ggplot2
 
-Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.
+Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself, it becomes easier the more you use it.
 
-The best way to master it is by practicing. So let us create a first `ggplot`. 😃
+The best way to master it is by practising. So let us create a first `ggplot`. 😃
 What we need to do is the following:
 
 1. Wrangle the data in the format suitable for visualisation.
@@ -51,7 +51,7 @@ suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(gapminder))
 suppressPackageStartupMessages(library(ggplot2))
 
-# wrangle the data (can you remember what does this code do?)
+# wrangle the data (Can you remember what this code do?)
 gapminder_pipe <- gapminder %>%
   filter(continent == "Europe" & year ==  2007) %>%
   mutate(pop_e6 = pop / 1000000)
@@ -70,7 +70,7 @@ ggplot(data = <DATA>, (mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>()
 ```
 
 ##### <span style="color:red">ggplot()</span> gallery
-Run the following code to see what graphs it's going to produce.
+Run the following code to see what graphs it will produce.
 
 
 ```r
@@ -101,7 +101,7 @@ m1 <- lm(gapminder_pipe$lifeExp ~ gapminder_pipe$pop_e6)
 summary(m1)
 ```
 
-**Can you answer the question usig the output of the fitted model?**
+**Can you answer the question using the output of the fitted model?**
 
 ```r
 m1 <- lm(gapminder_pipe$lifeExp ~ gapminder_pipe$pop_e6)
@@ -135,7 +135,7 @@ Does the life expectancy depend upon the GDP per capita?
 
 1) Have a glance at the data. (tip: `sample_n(df, n)`)
 
-2) Produce a scattep plot: what does it tell you?
+2) Produce a scatter plot: what does it tell you?
 
 3) Fit a regression model: is there a relationship? How strong is it?
 Is the relationship linear? What conclusion(s) can you draw?
@@ -150,18 +150,18 @@ sample_n(gapminder, 30)
 
 ```
 ## # A tibble: 30 x 6
-##    country           continent  year lifeExp       pop gdpPercap
-##    <fct>             <fct>     <int>   <dbl>     <int>     <dbl>
-##  1 Equatorial Guinea Africa     1992    47.5    387838     1132.
-##  2 Egypt             Africa     1957    44.4  25009741     1459.
-##  3 Albania           Europe     1977    68.9   2509048     3533.
-##  4 Pakistan          Asia       1972    51.9  69325921     1050.
-##  5 Venezuela         Americas   1982    68.6  15620766    11152.
-##  6 Denmark           Europe     2007    78.3   5468120    35278.
-##  7 Brazil            Americas   1967    57.6  88049823     3430.
-##  8 India             Asia       1982    56.6 708000000      856.
-##  9 Bolivia           Americas   1967    45.0   4040665     2587.
-## 10 Lebanon           Asia       1962    62.1   1886848     5715.
+##    country       continent  year lifeExp      pop gdpPercap
+##    <fct>         <fct>     <int>   <dbl>    <int>     <dbl>
+##  1 Iraq          Asia       1962    51.5  7240260     8342.
+##  2 Austria       Europe     1972    70.6  7544201    16662.
+##  3 Cote d'Ivoire Africa     1977    52.4  7459574     2518.
+##  4 Vietnam       Asia       1992    67.7 69940728      989.
+##  5 Swaziland     Africa     1967    46.6   420690     2613.
+##  6 Australia     Oceania    1987    76.3 16257249    21889.
+##  7 Netherlands   Europe     1987    76.8 14665278    23651.
+##  8 Ecuador       Americas   1977    61.3  7278866     6680.
+##  9 Tanzania      Africa     2002    49.7 34593779      899.
+## 10 Tunisia       Africa     1987    66.9  7724976     3810.
 ## # … with 20 more rows
 ```
 

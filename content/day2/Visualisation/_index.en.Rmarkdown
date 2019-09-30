@@ -10,9 +10,9 @@ Most of you, if not all, would be familiar with creating the graphs in Excel. So
 
 ### Grammar of Graphics
 
-The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers making it look effective and attractive. 
+The [grammer of graphics](http://vita.had.co.nz/papers/layered-grammar.html) enables a structured way of creating a plot by adding the components as layers, making it look effective and attractive. 
 
-Enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
+It enables you to specify building blocks of a plot and to combine them to create the graphical display that you want. There are 8 building blocks:
 
 - data
 
@@ -35,9 +35,9 @@ Imagine talking about baking a cake and adding a cherry on the top. 🎂🍒 Thi
 
 #### ggplot2
 
-Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself it becomes easier the more you use it.
+Learning how to use the `ggplot2` package can be challenging, but the results are highly rewarding and just like R itself, it becomes easier the more you use it.
 
-The best way to master it is by practicing. So let us create a first `ggplot`. 😃
+The best way to master it is by practising. So let us create a first `ggplot`. 😃
 What we need to do is the following:
 
 1. Wrangle the data in the format suitable for visualisation.
@@ -50,7 +50,7 @@ suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(gapminder))
 suppressPackageStartupMessages(library(ggplot2))
 
-# wrangle the data (can you remember what does this code do?)
+# wrangle the data (Can you remember what this code do?)
 gapminder_pipe <- gapminder %>%
   filter(continent == "Europe" & year ==  2007) %>%
   mutate(pop_e6 = pop / 1000000)
@@ -67,7 +67,7 @@ ggplot(data = <DATA>, (mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>()
 ```
 
 ##### <span style="color:red">ggplot()</span> gallery
-Run the following code to see what graphs it's going to produce.
+Run the following code to see what graphs it will produce.
 
 ```{r, echo = TRUE, eval = FALSE, warnings=FALSE, message=FALSE}
 ggplot(data = gapminder, mapping = aes(x = lifeExp), binwidth = 10) +
@@ -96,7 +96,7 @@ m1 <- lm(gapminder_pipe$lifeExp ~ gapminder_pipe$pop_e6)
 summary(m1)
 ```
 
-**Can you answer the question usig the output of the fitted model?**
+**Can you answer the question using the output of the fitted model?**
 ```{r, echo = TRUE, warning= FALSE}
 m1 <- lm(gapminder_pipe$lifeExp ~ gapminder_pipe$pop_e6)
 summary(m1)
@@ -108,7 +108,7 @@ Does the life expectancy depend upon the GDP per capita?
 
 1) Have a glance at the data. (tip: `sample_n(df, n)`)
 
-2) Produce a scattep plot: what does it tell you?
+2) Produce a scatter plot: what does it tell you?
 
 3) Fit a regression model: is there a relationship? How strong is it?
 Is the relationship linear? What conclusion(s) can you draw?
