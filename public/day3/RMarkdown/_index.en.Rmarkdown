@@ -18,16 +18,16 @@ It enables you to:
 - save and execute code and display its output
 - create high quality reports that could include [LaTeX](https://www.latex-project.org/) equations
 
-What is great about [R Markdown](https://rmarkdown.rstudio.com/) documents is that they are fully reproducible and support many static and dynamic output formts, to name a few: PDF, HTML, MS Word, Beamer...  You can incorporate narrative text and code of your data analysis to produce elegantly formatted storry telling journy.
+What is great about [R Markdown](https://rmarkdown.rstudio.com/) documents is that they are fully reproducible and support many static and dynamic output formats, to name a few: PDF, HTML, MS Word, Beamer...  You can incorporate narrative text and code of your data analysis to produce an elegantly formatted story telling journey.
 
 It is a variant of [Markdown](https://daringfireball.net/projects/markdown/) that has embedded **R code chunks** (denoted by three back ticks), to be used with [knitr](https://yihui.name/knitr/) to make it easy to create reproducible web-based reports. 
 
 R Markdown is a plain text file that has the extension <span style="color:red">.Rmd</span>
 
-To use **R Markdown** you will need to install package from [CRAN](https://cran.r-project.org/) and load it with:
+To use **R Markdown** you will need to install the package from [CRAN](https://cran.r-project.org/) and load it with:
 
 ```{r eval=FALSE, warnings=FALSE, message=FALSE}
-install.packages("rmakdown",repos = "http://cran.us.r-project.org")
+install.packages("rmakdown", repos = "http://cran.us.r-project.org")
 suppressPackageStartupMessages(library(rmarkdown))
 ```
 
@@ -48,13 +48,13 @@ Open the file `RMarkdown_Intro.Rmd`
 #### Basic Text editing
 
 **<span style="color:red">Task 2</span>:**
-Let’s formatted this document further by
+Let’s format this document further by
 
-- Changing the author of the document to your own name;
+- Changing the author of the document to your own name
 
-- Rewriting the first sentence of the document to say "This is my first R Markdown document.";
+- Rewriting the first sentence of the document to say "This is my first R Markdown document."
 
-- Recompiling the document so you can see your changes.
+- Recompiling the document so you can see your changes
 
 #### Adding a link
 
@@ -69,8 +69,11 @@ Make GitHub in the following paragraph link to https://github.com/DataTeka
 
 To embed formatting instructions into your document using Markdown, you
 would surround text by:
-- one asterisks to make it italic: *italic*;
+
+- one asterisk to make it italic: *italic*
+
 - two asterisks to make it bold: **bold** and
+
 - backticks to make it monospaced: `monospaced`.
 
 To make an ordered list you need to place each item on a new line after a
@@ -95,7 +98,7 @@ attributes;
 - Make word Knit in the following paragraph italic.
 
 
-#### Embeding the `R` code 
+#### Embedding the `R` code 
 To embed an R code chunk you would use three back ticks:
 
 <p><code  class="r"> ```{r} </code>
@@ -148,15 +151,15 @@ To *display equation* **in its own line** it needs to be surrounded by double do
 
 or to *embed an equation* **in line within the text** you would use only one dollar symbol: `$y = a + bx$`.
 
-**<span style="color:red">Task 7</span>**: Display the equation in *Including Mathematical Equations* paragraph into it’s own line.
+**<span style="color:red">Task 7</span>**: Display the equation in the *Including Mathematical Equations* paragraph into its own line.
 
 
 #### Congratulations! You have got the basics to start creating your own fabulous dynamic documents… !!!! 👍😃
 
 
-You would deffinitely find usefull the following:
+You would definitely find the following useful:
 
-- [RMarkdown cheatasheat](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+- [RMarkdown cheatasheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
 - [The R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
