@@ -12,18 +12,18 @@
     <title>Data Wrangling :: R Bootcamp</title>
 
     
-    <link href="/css/nucleus.css?1569841875" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1569841875" rel="stylesheet">
-    <link href="/css/hybrid.css?1569841875" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1569841875" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1569841875" rel="stylesheet">
-    <link href="/css/auto-complete.css?1569841875" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1569841875" rel="stylesheet">
-    <link href="/css/theme.css?1569841875" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1569841875" rel="stylesheet">
+    <link href="/css/nucleus.css?1569843477" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1569843477" rel="stylesheet">
+    <link href="/css/hybrid.css?1569843477" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1569843477" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1569843477" rel="stylesheet">
+    <link href="/css/auto-complete.css?1569843477" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1569843477" rel="stylesheet">
+    <link href="/css/theme.css?1569843477" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1569843477" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1569841875"></script>
+    <script src="/js/jquery-3.3.1.min.js?1569843477"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1569841875"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1569841875"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1569843477"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1569843477"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1569841875"></script>
+<script type="text/javascript" src="/js/search.js?1569843477"></script>
 
     
   </div>
@@ -810,7 +810,7 @@
 
 <h3 id="dataset">Dataset</h3>
 
-<p>To learn and practice how to organise a data we will use a <code>gapminder</code> data set awailable from <code>gapminder</code> package in R. This dataset is put into R by <a href="https://jennybryan.org/">Jennifer Bryan</a> from a tank of data sets available from <a href="https://www.gapminder.org">Gapminder</a>.</p>
+<p>To learn and practise how to organise a data we will use a <code>gapminder</code> data set available from <code>gapminder</code> package in R. This dataset is put into R by <a href="https://jennybryan.org/">Jennifer Bryan</a> from a tank of data sets available from <a href="https://www.gapminder.org">Gapminder</a>.</p>
 
 <p><a href="https://www.gapminder.org">Gapminder</a> is an independent Swedish foundation that helps to promote sustainable global development by collecting and analysiing relevant data and by developing and designing  teaching/learning tools. <a href="https://en.wikipedia.org/wiki/Gapminder_Foundation">Gapminder</a> was founded in Sweden by <a href="https://en.wikipedia.org/wiki/Hans_Rosling">Hans Rosling</a> who was a mastermind for distinctive and insightful storytelling about global development using visual animation.</p>
 
@@ -828,7 +828,7 @@ install.packages(&quot;ggplot2&quot;, repos = &quot;http://cran.us.r-project.org
 install.packages(&quot;gapminder&quot;, repos = &quot;http://cran.us.r-project.org&quot;)
 install.packages(&quot;DT&quot;, repos = &quot;http://cran.us.r-project.org&quot;)
 #
-# have a look at the data trough a table
+# have a look at the data through a table
 DT::datatable(head(gapminder::gapminder, 10))
 </code></pre>
 
@@ -882,9 +882,9 @@ dim(gapminder)
 ## 10 Afghanistan Asia       1997    41.8 22227415      635.
 </code></pre>
 
-<p>Can you tell what does each of the two functions do⁉️</p>
+<p>Can you tell what each of the two functions does⁉️</p>
 
-<p>Do we have the inormation about the structure of the data? 🤔 We can examine the structure using <span style="color:red"><code>str()</code></span> function, but the <strong>output could look messy</strong> and hard to follow if the data set is big. 🤪</p>
+<p>Do we have the information about the structure of the data? 🤔 We can examine the structure using <span style="color:red"><code>str()</code></span> function, but the <strong>output could look messy</strong> and hard to follow if the data set is big. 🤪</p>
 
 <pre><code class="language-r">str(gapminder) 
 </code></pre>
@@ -900,7 +900,7 @@ dim(gapminder)
 
 <h4 id="the-dplyr-package">The <code>dplyr</code> Package</h4>
 
-<p>Rhe <span style="color:red"><strong><code>dplyr</code></strong></span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key opertor and the essential verbs are:</p>
+<p>The <span style="color:red"><strong><code>dplyr</code></strong></span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key operator and the essential verbs are:</p>
 
 <p><span style="color:red">%&gt;%</span>: the “pipe” operator used to connect multiple verb actions together into a pipeline.</p>
 
@@ -912,9 +912,9 @@ dim(gapminder)
 
 <p><span style="color:red">arrange()</span>: reorder rows of a data frame according to single or multiple variables.</p>
 
-<p><span style="color:red">summarise() / summarize()</span>: reduces each group to a single row by calculating aggregate measures.</p>
+<p><span style="color:red">summarise() / summarize()</span>: reduce each group to a single row by calculating aggregate measures.</p>
 
-<p>We can have a look at the data and its structure by using the <span style="color:red"><code>glimpse()</code></span> function from <code>diplyr</code> package.</p>
+<p>We can have a look at the data and its structure by using the <span style="color:red"><code>glimpse()</code></span> function from the <code>dplyr</code> package.</p>
 
 <pre><code class="language-r">suppressPackageStartupMessages(library(dplyr))
 glimpse(gapminder) 
@@ -932,7 +932,7 @@ glimpse(gapminder)
 
 <p>🤓💡: Notice how we could prevent display of the messages that appear when uploading the packages by using, in this case, <code>suppressPackageStartupMessages()</code>!</p>
 
-<p>Now we have <code>diplyr</code> package uploaded, let us learn its verbs. 😇</p>
+<p>Now we have the <code>dplyr</code> package uploaded, let us learn its verbs. 😇</p>
 
 <h4 id="the-pipeline-operater-span-style-color-red-span">The pipeline operater: <span style="color:red"><code>%&gt;%</code></span></h4>
 
@@ -996,7 +996,7 @@ head(gm_cc, n = 1)
 ## 1 Afghanistan Asia
 </code></pre>
 
-<p>of course all of this could be done using <strong>base R</strong> like for example:</p>
+<p>of course all of this could be done using <strong>base R</strong> for example:</p>
 
 <pre><code class="language-r">gm_cc &lt;- gapminder[c(&quot;country&quot;, &quot;continent&quot;)]
 </code></pre>
@@ -1043,9 +1043,9 @@ head(gapminder2, n = 2)
 
 <p>Use <code>gapminder2</code> <code>df</code> to filter:</p>
 
-<p>1) only Europian countries and save it as <code>gapmEU</code></p>
+<p>1) only European countries and save it as <code>gapmEU</code></p>
 
-<p>2) only Europian countries from 2000 onward and save it as <code>gapmEU21c</code></p>
+<p>2) only European countries from 2000 onward and save it as <code>gapmEU21c</code></p>
 
 <p>3) rows where the life expectancy is greater than 80</p>
 
@@ -1204,14 +1204,14 @@ head(gapmEU21c_l2h, 2)
 
 <h4 id="let-s-all-up">Let&rsquo;s <code>%&gt;%</code> all up!</h4>
 
-<p>You can try to get into a habit of using a shortcut for the pipe operatir
+<p>You can try to get into a habit of using a shortcut for the pipe operator
 <img src="images/pipe_short_cut.png" width="450px" style="display: block; margin: auto;" /></p>
 
 <h5 id="confer-with-your-neighbours">🗣👥 Confer with your neighbours:</h5>
 
 <p>What relationship do you expect to see between population size (<code>pop</code>) and life expectancy (<code>lifeExp</code>)?</p>
 
-<p><strong>Look what does this code produce</strong></p>
+<p><strong>Look what this code produces</strong></p>
 
 <pre><code class="language-r">gapminder_pipe &lt;- gapminder %&gt;%
   filter(continent == &quot;Europe&quot; &amp; year ==  2007) %&gt;%
@@ -1225,23 +1225,23 @@ plot(gapminder_pipe$pop_e6, gapminder_pipe$lifeExp, cex = 0.5, col = &quot;red&q
 
 <p>Practise by doing the following set of exercises:</p>
 
-<p>1) Install and upload <code>rattle</code> package and explore what does it do.</p>
+<p>1) Install and upload the <code>rattle</code> package and see what it does.</p>
 
 <p>2) Create a new R script file to explore <code>weatherAUS</code> dataset.</p>
 
-<p>i) <code>select()</code> variable: <code>MinTemp</code>, <code>MaxTemp</code>, <code>Rainfall</code> and <code>Sunshine</code> by <em>pyping</em> the dataset into `dplyr::select() function.</p>
+<p>i) <code>select()</code> variable: <code>MinTemp</code>, <code>MaxTemp</code>, <code>Rainfall</code> and <code>Sunshine</code> by <em>pipping</em> the dataset into `dplyr::select() function.</p>
 
-<p>ii) produce a <em>summary</em>  using <code>base::sumarry()</code> function of these numeric values.</p>
+<p>ii) produce a <em>summary</em>  using <code>base::summary()</code> function of these numeric values.</p>
 
-<p>iii) within this selection filter only those observations where <code>Rainfall &gt;= 1</code> and save the results into the computers memory (ie. save the results as an object).</p>
+<p>iii) within this selection filter only those observations where <code>Rainfall &gt;= 1</code> and save the results into the computer&rsquo;s memory (ie. save the results as an object).</p>
 
 <p>iv) Try to think of how else you can use other <code>dplyr</code> verbs on this <code>weatherAUS</code> dataset. Write your question first, before embarking on typing the code.</p>
 
-<p>v) Write a short report on what visualisation do you think would be interesting to produce for this <code>weatherAUS</code> dataset and why?</p>
+<p>v) Write a short report on what visualisation you think would be interesting to produce for this <code>weatherAUS</code> dataset and why?</p>
 
 <h5 id="useful-links">Useful Links</h5>
 
-<p><a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheet sheat</a></p>
+<p><a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheat</a></p>
 
 <p><a href="https://ugoproto.github.io/ugo_r_doc/dplyr.pdf">Data Transformation with dplyr cheat sheat</a></p>
 
@@ -1626,20 +1626,20 @@ plot(gapminder_pipe$pop_e6, gapminder_pipe$lifeExp, cex = 0.5, col = &quot;red&q
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1569841875"></script>
-    <script src="/js/perfect-scrollbar.min.js?1569841875"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1569841875"></script>
-    <script src="/js/jquery.sticky.js?1569841875"></script>
-    <script src="/js/featherlight.min.js?1569841875"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1569841875"></script>
-    <script src="/js/highlight.pack.js?1569841875"></script>
+    <script src="/js/clipboard.min.js?1569843477"></script>
+    <script src="/js/perfect-scrollbar.min.js?1569843477"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1569843477"></script>
+    <script src="/js/jquery.sticky.js?1569843477"></script>
+    <script src="/js/featherlight.min.js?1569843477"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1569843477"></script>
+    <script src="/js/highlight.pack.js?1569843477"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1569841875"></script>
-    <script src="/js/learn.js?1569841875"></script>
-    <script src="/js/hugo-learn.js?1569841875"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1569843477"></script>
+    <script src="/js/learn.js?1569843477"></script>
+    <script src="/js/hugo-learn.js?1569843477"></script>
 
-    <link href="/mermaid/mermaid.css?1569841875" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1569841875"></script>
+    <link href="/mermaid/mermaid.css?1569843477" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1569843477"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

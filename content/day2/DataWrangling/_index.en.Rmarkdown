@@ -15,7 +15,7 @@ This diagram is taken from [R for Data Science](https://r4ds.had.co.nz/) book by
 
 ### Dataset
 
-To learn and practice how to organise a data we will use a `gapminder` data set awailable from `gapminder` package in R. This dataset is put into R by [Jennifer Bryan](https://jennybryan.org/) from a tank of data sets available from [Gapminder](https://www.gapminder.org).
+To learn and practise how to organise a data we will use a `gapminder` data set available from `gapminder` package in R. This dataset is put into R by [Jennifer Bryan](https://jennybryan.org/) from a tank of data sets available from [Gapminder](https://www.gapminder.org).
 
 [Gapminder](https://www.gapminder.org) is an independent Swedish foundation that helps to promote sustainable global development by collecting and analysiing relevant data and by developing and designing  teaching/learning tools. [Gapminder](https://en.wikipedia.org/wiki/Gapminder_Foundation) was founded in Sweden by [Hans Rosling](https://en.wikipedia.org/wiki/Hans_Rosling) who was a mastermind for distinctive and insightful storytelling about global development using visual animation.
 
@@ -34,7 +34,7 @@ install.packages("ggplot2", repos = "http://cran.us.r-project.org")
 install.packages("gapminder", repos = "http://cran.us.r-project.org")
 install.packages("DT", repos = "http://cran.us.r-project.org")
 #
-# have a look at the data trough a table
+# have a look at the data through a table
 DT::datatable(head(gapminder::gapminder, 10))
 ```
 
@@ -62,9 +62,9 @@ dim(gapminder)
 head(gapminder, n=10)
 ```
 
-Can you tell what does each of the two functions do⁉️
+Can you tell what each of the two functions does⁉️
 
-Do we have the inormation about the structure of the data? 🤔 We can examine the structure using <span style="color:red">`str()`</span> function, but the **output could look messy** and hard to follow if the data set is big. 🤪
+Do we have the information about the structure of the data? 🤔 We can examine the structure using <span style="color:red">`str()`</span> function, but the **output could look messy** and hard to follow if the data set is big. 🤪
 
 ```{r}
 str(gapminder) 
@@ -72,7 +72,7 @@ str(gapminder)
 
 #### The `dplyr` Package
 
-Rhe <span style="color:red">**`dplyr`**</span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key opertor and the essential verbs are:
+The <span style="color:red">**`dplyr`**</span> provides a “grammar” (the verbs) for data manipulation and for operating on data frames in a tidy way. The key operator and the essential verbs are:
 
 <span style="color:red">%>%</span>: the “pipe” operator used to connect multiple verb actions together into a pipeline.
 
@@ -84,9 +84,9 @@ Rhe <span style="color:red">**`dplyr`**</span> provides a “grammar” (the ver
 
 <span style="color:red">arrange()</span>: reorder rows of a data frame according to single or multiple variables.
 
-<span style="color:red">summarise() / summarize()</span>: reduces each group to a single row by calculating aggregate measures.
+<span style="color:red">summarise() / summarize()</span>: reduce each group to a single row by calculating aggregate measures.
 
-We can have a look at the data and its structure by using the <span style="color:red">`glimpse()`</span> function from `diplyr` package.
+We can have a look at the data and its structure by using the <span style="color:red">`glimpse()`</span> function from the `dplyr` package.
 
 ```{r, warnings=FALSE, message=FALSE}
 suppressPackageStartupMessages(library(dplyr))
@@ -95,7 +95,7 @@ glimpse(gapminder)
 
 🤓💡: Notice how we could prevent display of the messages that appear when uploading the packages by using, in this case, `suppressPackageStartupMessages()`!
 
-Now we have `diplyr` package uploaded, let us learn its verbs. 😇
+Now we have the `dplyr` package uploaded, let us learn its verbs. 😇
 
 #### The pipeline operater: <span style="color:red">`%>%`</span>
 
@@ -146,7 +146,7 @@ gm_cc <- select(gapminder, starts_with("co"))
 head(gm_cc, n = 1)
 ```
 
-of course all of this could be done using **base R** like for example:
+of course all of this could be done using **base R** for example:
 
 ```{r, echo = TRUE}
 gm_cc <- gapminder[c("country", "continent")]
@@ -188,9 +188,9 @@ There is a set of logical operators in **R** that you can use inside `filter()`:
 
 Use `gapminder2` `df` to filter:
 
-1) only Europian countries and save it as `gapmEU`
+1) only European countries and save it as `gapmEU`
 
-2) only Europian countries from 2000 onward and save it as `gapmEU21c`
+2) only European countries from 2000 onward and save it as `gapmEU21c`
 
 3) rows where the life expectancy is greater than 80
 
@@ -277,7 +277,7 @@ summarise(gapminder, mean_lifeExp = mean(lifeExp), mean_gdpPercap = mean(gdpPerc
 
 #### Let's `%>%` all up!
 
-You can try to get into a habit of using a shortcut for the pipe operatir 
+You can try to get into a habit of using a shortcut for the pipe operator 
 ```{r, out.width = "450px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/pipe_short_cut.png")
 ```
@@ -285,7 +285,7 @@ knitr::include_graphics("images/pipe_short_cut.png")
 ##### 🗣👥 Confer with your neighbours: 
 What relationship do you expect to see between population size (`pop`) and life expectancy (`lifeExp`)?
 
-**Look what does this code produce**
+**Look what this code produces**
 
 ```{r, echo = TRUE, eval = TRUE, fig.height = 5, fig.width = 6, fig.align = 'center'}
 gapminder_pipe <- gapminder %>%
@@ -298,23 +298,23 @@ plot(gapminder_pipe$pop_e6, gapminder_pipe$lifeExp, cex = 0.5, col = "red")
 
 Practise by doing the following set of exercises:
 
-1) Install and upload `rattle` package and explore what does it do.
+1) Install and upload the `rattle` package and see what it does.
 
 2) Create a new R script file to explore `weatherAUS` dataset. 
 
-  i) `select()` variable: `MinTemp`, `MaxTemp`, `Rainfall` and `Sunshine` by *pyping* the dataset into `dplyr::select() function.
+  i) `select()` variable: `MinTemp`, `MaxTemp`, `Rainfall` and `Sunshine` by *pipping* the dataset into `dplyr::select() function.
   
-  ii) produce a *summary*  using `base::sumarry()` function of these numeric values.
+  ii) produce a *summary*  using `base::summary()` function of these numeric values.
   
-  iii) within this selection filter only those observations where `Rainfall >= 1` and save the results into the computers memory (ie. save the results as an object).
+  iii) within this selection filter only those observations where `Rainfall >= 1` and save the results into the computer's memory (ie. save the results as an object).
   
   iv) Try to think of how else you can use other `dplyr` verbs on this `weatherAUS` dataset. Write your question first, before embarking on typing the code.
   
-  v) Write a short report on what visualisation do you think would be interesting to produce for this `weatherAUS` dataset and why?
+  v) Write a short report on what visualisation you think would be interesting to produce for this `weatherAUS` dataset and why?
 
 ##### Useful Links
 
-[Data Wrangling cheet sheat](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+[Data Wrangling cheat sheat](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 [Data Transformation with dplyr cheat sheat](https://ugoproto.github.io/ugo_r_doc/dplyr.pdf)
 
