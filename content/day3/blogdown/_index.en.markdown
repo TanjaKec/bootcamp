@@ -55,14 +55,14 @@ We will do it step by step. Let us start by setting a GitHub repo for our websit
 
 ##### Prep with GitHub
 
-We are already familiar with GitHub basics about which you can find from [Happy Git with R](http://happygitwithr.com) to connect RStudio with your GitHub account.
+We are already familiar with GitHub basics, which you can find from [Happy Git with R](http://happygitwithr.com) to connect RStudio with your GitHub account.
 
 
 <img 
 src="http://happygitwithr.com/img/watch-me-diff-watch-me-rebase-smaller.png" align="middle" img width="60%"  
 />
 
-We are going to assume that you are already familiar and have done:
+We are going to assume you are already familiar with and have done:
 
 ☑️ Capter 5: [Register a GitHub account ](http://happygitwithr.com/github-acct.html)
 
@@ -72,7 +72,7 @@ We are going to assume that you are already familiar and have done:
 
 <img src="images/New_Repo.png" width="200px" style="display: block; margin: auto auto auto 0;" />
 
-* Give a meaningful name 
+* Give it a meaningful name 
 <img src="images/Create_New_Repo.png" width="300px" style="display: block; margin: auto auto auto 0;" />
 
 * Copy repo's **HTTPS** address
@@ -101,19 +101,19 @@ We are going to assume that you are already familiar and have done:
 `blogdown::install_hugo()`
 
 
-💡! If you already got those packages installed you can chech to update your <span style="color:red">Hugo</span> package
+💡! If you already have those packages installed, you can check to update your <span style="color:red">Hugo</span> package
 
 `blogdown::hugo_version() # check version`
 
 `blogdown::update_hugo() # force an update`
 
-💡! If you having trouble installing the package try:
+💡! If you are having trouble installing the package try:
 
 `install.packages("blogdown", repos = "http://cran.us.r-project.org")` 🤞
 
 #### Build a website
 
-We'll adopt *simple is beautiful* approach and start building a website using a <span style="color:red">default theme</span>.
+We'll adopt a *simple is beautiful* approach and start building a website using a <span style="color:red">default theme</span>.
 
 `blogdown::new_site()`
 
@@ -136,7 +136,7 @@ Let the knowledge and familiarity with `blogdown` and `Hugo` grow first.🧐 Onc
 
 #### Serve site
 
-* In console type:
+* In the console type:
 
 `blogdown::serve_site()` 
 
@@ -150,11 +150,11 @@ Don't try to view your site in your teeny RStudio viewer, instead click on <span
 
 #### Notation we will adopt
 
-- **Trailing slash** will indicate a directory name, e.g. `content/` means we are refering to a directory called *content*, not to a file named *content*.
+- **Trailing slash** will indicate a directory name, e.g. `content/` means we are referring to a directory called *content*, not to a file named *content*.
 
 <img src="images/trailing_slash.png" width="150px" style="display: block; margin: auto auto auto 0;" />
 
-- **Leading slash** indicate the root directory of your *project website*, e.g. `/content/about.md` means we are refering to `about.md` file which is under the root directory of the website project.  
+- **Leading slash** will indicate the root directory of your *project website*, e.g. `/content/about.md` means we are refering to `about.md` file which is under the root directory of the website project.  
 
 <img src="images/leading_slash.png" width="150px" style="display: block; margin: auto auto auto 0;" />
 
