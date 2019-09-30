@@ -6,7 +6,7 @@ output:
 weight: 2
 ---
 
-Most of you, if not all, would be familiar with creating the graphs in Excel. Software such as Excel has a predefined set of menu options for plotting the data that is the focus of the end result: "pretty graph". Those types of menues assume data to be in a format ready for plotting, which when you get a raw data is hardly the case. You are most likely going to have to organse and wrangle your data to make it ready for effective visualisation. 
+Most of you, if not all, would be familiar with creating the graphs in Excel. Software such as Excel has a predefined set of menu options for plotting the data that is the focus of the end result: "pretty graph". Those types of menus assume data to be in a format ready for plotting, which when you get raw data is hardly the case. You are probably going to have to organse and wrangle your data to make it ready for effective visualisation. 
 
 ### Grammar of Graphics
 
@@ -150,18 +150,18 @@ sample_n(gapminder, 30)
 
 ```
 ## # A tibble: 30 x 6
-##    country     continent  year lifeExp       pop gdpPercap
-##    <fct>       <fct>     <int>   <dbl>     <int>     <dbl>
-##  1 Comoros     Africa     1997    60.7    527982     1174.
-##  2 Argentina   Americas   1997    73.3  36203463    10967.
-##  3 Poland      Europe     1972    70.8  33039545     8007.
-##  4 India       Asia       1977    54.2 634000000      813.
-##  5 Swaziland   Africa     1987    57.7    779348     3985.
-##  6 Spain       Europe     1972    73.1  34513161    10639.
-##  7 Philippines Asia       1962    54.8  30325264     1650.
-##  8 Slovenia    Europe     1962    69.2   1582962     7402.
-##  9 Lesotho     Africa     1962    47.7    893143      412.
-## 10 Mozambique  Africa     1987    42.9  12891952      390.
+##    country           continent  year lifeExp       pop gdpPercap
+##    <fct>             <fct>     <int>   <dbl>     <int>     <dbl>
+##  1 Equatorial Guinea Africa     1992    47.5    387838     1132.
+##  2 Egypt             Africa     1957    44.4  25009741     1459.
+##  3 Albania           Europe     1977    68.9   2509048     3533.
+##  4 Pakistan          Asia       1972    51.9  69325921     1050.
+##  5 Venezuela         Americas   1982    68.6  15620766    11152.
+##  6 Denmark           Europe     2007    78.3   5468120    35278.
+##  7 Brazil            Americas   1967    57.6  88049823     3430.
+##  8 India             Asia       1982    56.6 708000000      856.
+##  9 Bolivia           Americas   1967    45.0   4040665     2587.
+## 10 Lebanon           Asia       1962    62.1   1886848     5715.
 ## # … with 20 more rows
 ```
 
