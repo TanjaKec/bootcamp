@@ -26,7 +26,7 @@ The first step is to check if Git is already installed on your computer. (Note: 
 Open the terminal and type
 
 ```
-git ---version
+git --version
 ```
 You should get something like this
 

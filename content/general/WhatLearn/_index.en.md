@@ -37,7 +37,7 @@ Each module will be taught by [Dr Tatjana Kecojevic](tanjakec.github.io) and wil
 
 Students are expected to participate fully in all of these delivery modes, but in particular are expected to have attempted any pre-set work and come fully prepared to discuss any problems encountered and debate the ideas and any issues raised. 
 
-{{% notice tip %}}We recommend you complete each of the following before the end of each week:
+{{% notice tip %}}We recommend you complete each of the following before the end of each day:
 
 * Readings and hand-outs/exercises
 * Participation in the discussions

@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>/day3/blogdown/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/day2/visualisation/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
@@ -43,6 +38,11 @@
   
   <url>
     <loc>/general/instructor/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/day3/blogdown/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
@@ -95,10 +95,18 @@
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tatjana-kecojevic/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
