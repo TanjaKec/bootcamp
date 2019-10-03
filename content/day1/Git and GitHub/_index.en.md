@@ -26,7 +26,7 @@ The first step is to check if Git is already installed on your computer. (Note: 
 Open the terminal and type
 
 ```
-git ---ersion
+git --version
 ```
 You should get something like this
 
@@ -49,7 +49,7 @@ git config --global user.name "your name"
 Run CMD to obtain command prompt window in which you should type the following command to check if Git already exists on your computer:
 
 ```
-git ---version
+git --version
 ```
 
 If Git is not recognised, that means that it needs to be installed from <https://gitforwindows.org>. Download the needed file and run the installation by selecting all the defaults. Close the command window to allow for the change in your system to go through and reopen it. Once again type the above command.
